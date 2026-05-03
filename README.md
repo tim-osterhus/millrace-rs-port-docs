@@ -62,6 +62,8 @@ Local export details from this workspace:
 
 - Files in bundle: 940
 - SHA256: `faffab654195d12b97788b35882435fcc35d64c4b9e0c26ec6468dee9fff4293`
+- Release: [`v0.1.0`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/tag/v0.1.0)
+- Download: [`v0.1.0-port-evidence.tar.gz`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/download/v0.1.0/v0.1.0-port-evidence.tar.gz)
 
 If you have an adjacent checkout of `millrace-rs`, you can recreate that bundle:
 
