@@ -1,0 +1,629 @@
+{
+  "artifact_counts": {
+    "arbiter_reports": 11,
+    "ideas_contracts": 8,
+    "ideas_seeded": 8,
+    "incidents_resolved": 5,
+    "learning_blocked": 10,
+    "root_specs": 8,
+    "rubrics": 8,
+    "specs_blocked": 0,
+    "specs_done": 11,
+    "targets": 8,
+    "tasks_blocked": 0,
+    "tasks_done": 57,
+    "verdicts": 8
+  },
+  "done_specs": [
+    "millrace-agents/specs/done/arbiter-remediation-slice-7-real-adapter-smoke.md",
+    "millrace-agents/specs/done/idea-slice-1-contracts-stage-result-parity.md",
+    "millrace-agents/specs/done/idea-slice-1-contracts.md",
+    "millrace-agents/specs/done/idea-slice-2-workspace-substrate.md",
+    "millrace-agents/specs/done/idea-slice-3-assets-and-compiler.md",
+    "millrace-agents/specs/done/idea-slice-4-cli-read-write-surface-repair-lineage-parity.md",
+    "millrace-agents/specs/done/idea-slice-4-cli-read-write-surface.md",
+    "millrace-agents/specs/done/idea-slice-5-serial-runtime.md",
+    "millrace-agents/specs/done/idea-slice-6-daemon-runtime.md",
+    "millrace-agents/specs/done/idea-slice-7-runner-adapters.md",
+    "millrace-agents/specs/done/idea-slice-8-advanced-parity.md"
+  ],
+  "done_tasks": [
+    "millrace-agents/tasks/done/arbiter-remediation-idea-slice-1-contracts-01-stage-result-parity.md",
+    "millrace-agents/tasks/done/arbiter-remediation-idea-slice-4-cli-read-write-surface-01-lineage-repair-workspace-boundary.md",
+    "millrace-agents/tasks/done/arbiter-remediation-idea-slice-4-cli-read-write-surface-02-queue-repair-lineage-cli-parity.md",
+    "millrace-agents/tasks/done/arbiter-remediation-idea-slice-7-runner-adapters-01-real-adapter-smoke-surface.md",
+    "millrace-agents/tasks/done/idea-slice-1-contracts-01-stage-metadata.md",
+    "millrace-agents/tasks/done/idea-slice-1-contracts-02-work-documents.md",
+    "millrace-agents/tasks/done/idea-slice-1-contracts-03-json-contracts.md",
+    "millrace-agents/tasks/done/idea-slice-1-contracts-04-fixtures-parity.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-01-paths-init.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-02-assets-baseline.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-03-init-cli.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-04-queue-state-stores.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-05-runtime-lock.md",
+    "millrace-agents/tasks/done/idea-slice-2-workspace-substrate-06-doctor-parity-docs.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-01-contract-models.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-02-asset-resolution-fingerprints.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-03-graph-materialization.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-04-persistence-currentness.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-05-compile-cli.md",
+    "millrace-agents/tasks/done/idea-slice-3-assets-and-compiler-06-parity-fixtures-docs.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-01-cli-command-framework.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-02-runtime-control-mailbox-facade.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-03-read-only-operator-commands.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-04-queue-intake-commands.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-05-control-planning-config-commands.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-06-skills-command-surface.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-07-upgrade-managed-assets-surface.md",
+    "millrace-agents/tasks/done/idea-slice-4-cli-read-write-surface-08-run-placeholders-parity-docs.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-01-runtime-runner-contracts.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-02-startup-lifecycle.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-03-serial-tick-activation.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-04-stage-dispatch-routing.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-05-result-application-recovery.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-06-closure-arbiter-behavior.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-07-run-once-cli.md",
+    "millrace-agents/tasks/done/idea-slice-5-serial-runtime-08-parity-evidence-docs.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-01-startup-config.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-02-supervisor-completion.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-03-loop-shutdown.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-04-mailbox-reload.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-05-watcher-intake.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-06-monitor-rendering.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-07-run-daemon-cli.md",
+    "millrace-agents/tasks/done/idea-slice-6-daemon-runtime-08-parity-evidence-docs.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-01-shared-runner-boundary.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-02-codex-cli-adapter.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-03-pi-rpc-adapter.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-04-runtime-runner-config.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-05-runtime-dispatch-integration.md",
+    "millrace-agents/tasks/done/idea-slice-7-runner-adapters-06-parity-evidence-docs.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-01-governance-state-quota-contracts.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-02-governance-runtime-enforcement.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-03-learning-promotion-skill-evidence.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-04-closure-lineage-runtime-parity.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-05-run-inspection-depth.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-06-e2e-handoff-parity.md",
+    "millrace-agents/tasks/done/idea-slice-8-advanced-parity-07-parity-evidence-docs.md"
+  ],
+  "resolved_incidents": [
+    "millrace-agents/incidents/resolved/arbiter-gap-idea-slice-1-contracts-7d02653e.md",
+    "millrace-agents/incidents/resolved/arbiter-gap-idea-slice-4-cli-read-write-surface-1c25e4fa.md",
+    "millrace-agents/incidents/resolved/arbiter-gap-idea-slice-7-runner-adapters-14c3512a.md",
+    "millrace-agents/incidents/resolved/arbiter-remediation-idea-slice-1-contracts.md",
+    "millrace-agents/incidents/resolved/arbiter-remediation-idea-slice-4-cli-read-write-surface.md"
+  ],
+  "result_class_counts": {
+    "blocked": 11,
+    "followup_needed": 11,
+    "recoverable_failure": 7,
+    "success": 232
+  },
+  "seeded_ideas": [
+    {
+      "path": "ideas/inbox/slice-1-contracts.md",
+      "title": "Slice 1: Port Millrace Contracts To Rust"
+    },
+    {
+      "path": "ideas/inbox/slice-2-workspace-substrate.md",
+      "title": "Slice 2: Port Workspace Substrate"
+    },
+    {
+      "path": "ideas/inbox/slice-3-assets-and-compiler.md",
+      "title": "Slice 3: Port Assets And Compiler Authority"
+    },
+    {
+      "path": "ideas/inbox/slice-4-cli-read-write-surface.md",
+      "title": "Slice 4: Port CLI Read/Write Surface"
+    },
+    {
+      "path": "ideas/inbox/slice-5-serial-runtime.md",
+      "title": "Slice 5: Port Serial Runtime With Fake Runner"
+    },
+    {
+      "path": "ideas/inbox/slice-6-daemon-runtime.md",
+      "title": "Slice 6: Port Daemon Runtime"
+    },
+    {
+      "path": "ideas/inbox/slice-7-runner-adapters.md",
+      "title": "Slice 7: Port Runner Adapters"
+    },
+    {
+      "path": "ideas/inbox/slice-8-advanced-parity.md",
+      "title": "Slice 8: Finish Advanced Runtime Parity"
+    }
+  ],
+  "slice_summaries": [
+    {
+      "duration_hms": "0h 38m 48.2s",
+      "duration_seconds": 2328.222841,
+      "group": "learning-side-work",
+      "result_classes": {
+        "blocked": 10,
+        "success": 3
+      },
+      "run_count": 11,
+      "stage_calls": 13,
+      "stages": {
+        "analyst": 3,
+        "curator": 8,
+        "professor": 2
+      },
+      "usage": {
+        "cached_input_tokens": 5253760,
+        "input_tokens": 6359066,
+        "output_tokens": 97151,
+        "reasoning_output_tokens": 32129
+      },
+      "work_item_count": 10
+    },
+    {
+      "duration_hms": "2h 29m 46.2s",
+      "duration_seconds": 8986.192261,
+      "group": "slice-1-contracts",
+      "result_classes": {
+        "blocked": 1,
+        "followup_needed": 2,
+        "recoverable_failure": 6,
+        "success": 29
+      },
+      "run_count": 15,
+      "stage_calls": 38,
+      "stages": {
+        "arbiter": 2,
+        "auditor": 2,
+        "builder": 7,
+        "checker": 5,
+        "doublechecker": 1,
+        "fixer": 1,
+        "manager": 4,
+        "mechanic": 4,
+        "planner": 6,
+        "troubleshooter": 1,
+        "updater": 5
+      },
+      "usage": {
+        "cached_input_tokens": 33133184,
+        "input_tokens": 35918625,
+        "output_tokens": 368654,
+        "reasoning_output_tokens": 139963
+      },
+      "work_item_count": 9
+    },
+    {
+      "duration_hms": "1h 56m 41.1s",
+      "duration_seconds": 7001.091632,
+      "group": "slice-2-workspace-substrate",
+      "result_classes": {
+        "success": 21
+      },
+      "run_count": 8,
+      "stage_calls": 21,
+      "stages": {
+        "arbiter": 1,
+        "builder": 6,
+        "checker": 6,
+        "manager": 1,
+        "planner": 1,
+        "updater": 6
+      },
+      "usage": {
+        "cached_input_tokens": 32429312,
+        "input_tokens": 34846243,
+        "output_tokens": 283131,
+        "reasoning_output_tokens": 96508
+      },
+      "work_item_count": 7
+    },
+    {
+      "duration_hms": "2h 15m 29.7s",
+      "duration_seconds": 8129.743339,
+      "group": "slice-3-assets-and-compiler",
+      "result_classes": {
+        "success": 21
+      },
+      "run_count": 8,
+      "stage_calls": 21,
+      "stages": {
+        "arbiter": 1,
+        "builder": 6,
+        "checker": 6,
+        "manager": 1,
+        "planner": 1,
+        "updater": 6
+      },
+      "usage": {
+        "cached_input_tokens": 50654208,
+        "input_tokens": 53541077,
+        "output_tokens": 319808,
+        "reasoning_output_tokens": 115188
+      },
+      "work_item_count": 7
+    },
+    {
+      "duration_hms": "5h 13m 29.4s",
+      "duration_seconds": 18809.374483,
+      "group": "slice-4-cli-read-write-surface",
+      "result_classes": {
+        "followup_needed": 1,
+        "recoverable_failure": 1,
+        "success": 44
+      },
+      "run_count": 16,
+      "stage_calls": 46,
+      "stages": {
+        "arbiter": 2,
+        "auditor": 2,
+        "builder": 11,
+        "checker": 11,
+        "manager": 4,
+        "planner": 4,
+        "troubleshooter": 1,
+        "updater": 11
+      },
+      "usage": {
+        "cached_input_tokens": 109345664,
+        "input_tokens": 114685208,
+        "output_tokens": 636522,
+        "reasoning_output_tokens": 228523
+      },
+      "work_item_count": 14
+    },
+    {
+      "duration_hms": "3h 51m 35.8s",
+      "duration_seconds": 13895.761974,
+      "group": "slice-5-serial-runtime",
+      "result_classes": {
+        "followup_needed": 2,
+        "success": 29
+      },
+      "run_count": 10,
+      "stage_calls": 31,
+      "stages": {
+        "arbiter": 1,
+        "builder": 8,
+        "checker": 8,
+        "doublechecker": 2,
+        "fixer": 2,
+        "manager": 1,
+        "planner": 1,
+        "updater": 8
+      },
+      "usage": {
+        "cached_input_tokens": 124706816,
+        "input_tokens": 128994784,
+        "output_tokens": 518390,
+        "reasoning_output_tokens": 176800
+      },
+      "work_item_count": 9
+    },
+    {
+      "duration_hms": "3h 32m 20.2s",
+      "duration_seconds": 12740.164017,
+      "group": "slice-6-daemon-runtime",
+      "result_classes": {
+        "followup_needed": 1,
+        "success": 28
+      },
+      "run_count": 10,
+      "stage_calls": 29,
+      "stages": {
+        "arbiter": 1,
+        "builder": 8,
+        "checker": 8,
+        "doublechecker": 1,
+        "fixer": 1,
+        "manager": 1,
+        "planner": 1,
+        "updater": 8
+      },
+      "usage": {
+        "cached_input_tokens": 100949248,
+        "input_tokens": 104984251,
+        "output_tokens": 464036,
+        "reasoning_output_tokens": 160751
+      },
+      "work_item_count": 9
+    },
+    {
+      "duration_hms": "3h 44m 3.1s",
+      "duration_seconds": 13443.051095,
+      "group": "slice-7-runner-adapters",
+      "result_classes": {
+        "followup_needed": 2,
+        "success": 30
+      },
+      "run_count": 12,
+      "stage_calls": 32,
+      "stages": {
+        "arbiter": 2,
+        "auditor": 1,
+        "builder": 7,
+        "checker": 7,
+        "doublechecker": 1,
+        "fixer": 1,
+        "manager": 3,
+        "planner": 3,
+        "updater": 7
+      },
+      "usage": {
+        "cached_input_tokens": 106547584,
+        "input_tokens": 111165860,
+        "output_tokens": 482686,
+        "reasoning_output_tokens": 153895
+      },
+      "work_item_count": 10
+    },
+    {
+      "duration_hms": "3h 55m 22.2s",
+      "duration_seconds": 14122.166565,
+      "group": "slice-8-advanced-parity",
+      "result_classes": {
+        "followup_needed": 3,
+        "success": 27
+      },
+      "run_count": 9,
+      "stage_calls": 30,
+      "stages": {
+        "arbiter": 1,
+        "builder": 7,
+        "checker": 7,
+        "doublechecker": 3,
+        "fixer": 3,
+        "manager": 1,
+        "planner": 1,
+        "updater": 7
+      },
+      "usage": {
+        "cached_input_tokens": 130824448,
+        "input_tokens": 136246759,
+        "output_tokens": 494506,
+        "reasoning_output_tokens": 164528
+      },
+      "work_item_count": 8
+    }
+  ],
+  "source": "millrace-rs",
+  "stage_counts": {
+    "execution/builder": 60,
+    "execution/checker": 58,
+    "execution/doublechecker": 8,
+    "execution/fixer": 8,
+    "execution/troubleshooter": 2,
+    "execution/updater": 58,
+    "learning/analyst": 3,
+    "learning/curator": 8,
+    "learning/professor": 2,
+    "planning/arbiter": 11,
+    "planning/auditor": 5,
+    "planning/manager": 16,
+    "planning/mechanic": 4,
+    "planning/planner": 18
+  },
+  "stages_without_usage": [
+    {
+      "duration_seconds": 554.892374,
+      "path": "millrace-agents/runs/run-8acc3f4beeb34bac967a74963fa67f6b/stage_results/request-553daee027b64a77a05f5f7cbf422fc3.json",
+      "plane": "execution",
+      "request_id": "request-553daee027b64a77a05f5f7cbf422fc3",
+      "result_class": "recoverable_failure",
+      "run_id": "run-8acc3f4beeb34bac967a74963fa67f6b",
+      "stage": "updater",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-4-cli-read-write-surface-03-read-only-operator-commands"
+    },
+    {
+      "duration_seconds": 0.279563,
+      "path": "millrace-agents/runs/run-d04c005e3f7340d68e3e673ae16d1316/stage_results/request-100b5a98a91f43a884b69843847b88e8.json",
+      "plane": "planning",
+      "request_id": "request-100b5a98a91f43a884b69843847b88e8",
+      "result_class": "recoverable_failure",
+      "run_id": "run-d04c005e3f7340d68e3e673ae16d1316",
+      "stage": "mechanic",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    },
+    {
+      "duration_seconds": 0.272753,
+      "path": "millrace-agents/runs/run-d04c005e3f7340d68e3e673ae16d1316/stage_results/request-df0b08f4ad01460b9586d7d06a4c2a52.json",
+      "plane": "planning",
+      "request_id": "request-df0b08f4ad01460b9586d7d06a4c2a52",
+      "result_class": "recoverable_failure",
+      "run_id": "run-d04c005e3f7340d68e3e673ae16d1316",
+      "stage": "mechanic",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    },
+    {
+      "duration_seconds": 0.224683,
+      "path": "millrace-agents/runs/run-d04c005e3f7340d68e3e673ae16d1316/stage_results/request-f1569e7f00724afea4d79076c0560c1a.json",
+      "plane": "planning",
+      "request_id": "request-f1569e7f00724afea4d79076c0560c1a",
+      "result_class": "recoverable_failure",
+      "run_id": "run-d04c005e3f7340d68e3e673ae16d1316",
+      "stage": "planner",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    },
+    {
+      "duration_seconds": 0.330208,
+      "path": "millrace-agents/runs/run-fa0eb29cb3574d1d8d4663c2dc92cc26/stage_results/request-1251d053679b412187116d99591c96d1.json",
+      "plane": "planning",
+      "request_id": "request-1251d053679b412187116d99591c96d1",
+      "result_class": "recoverable_failure",
+      "run_id": "run-fa0eb29cb3574d1d8d4663c2dc92cc26",
+      "stage": "mechanic",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    },
+    {
+      "duration_seconds": 0.22,
+      "path": "millrace-agents/runs/run-fa0eb29cb3574d1d8d4663c2dc92cc26/stage_results/request-aacf852df8b54028891a9f5e9def39f8.json",
+      "plane": "planning",
+      "request_id": "request-aacf852df8b54028891a9f5e9def39f8",
+      "result_class": "recoverable_failure",
+      "run_id": "run-fa0eb29cb3574d1d8d4663c2dc92cc26",
+      "stage": "planner",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    },
+    {
+      "duration_seconds": 0.280246,
+      "path": "millrace-agents/runs/run-fa0eb29cb3574d1d8d4663c2dc92cc26/stage_results/request-f99a27ecd3d54a2d9cf01f1ef3f77893.json",
+      "plane": "planning",
+      "request_id": "request-f99a27ecd3d54a2d9cf01f1ef3f77893",
+      "result_class": "recoverable_failure",
+      "run_id": "run-fa0eb29cb3574d1d8d4663c2dc92cc26",
+      "stage": "mechanic",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "idea-slice-1-contracts"
+    }
+  ],
+  "summary": {
+    "cached_input_share": 0.954732690901,
+    "first_started_at": "2026-04-28T09:05:53.418007+00:00",
+    "input_plus_output_tokens": 730406757,
+    "last_completed_at": "2026-04-29T13:15:42.894048+00:00",
+    "max_stage_duration_seconds": 1584.635373,
+    "median_stage_duration_seconds": 274.475367,
+    "non_cached_input_plus_output_tokens": 36562533,
+    "non_cached_input_tokens": 32897649,
+    "requests_with_usage": 254,
+    "requests_without_usage": 7,
+    "run_count": 99,
+    "runner_event_file_count": 261,
+    "stage_result_count": 261,
+    "sum_stage_duration_hms": "27h 37m 35.8s",
+    "sum_stage_duration_seconds": 99455.768207,
+    "wall_hms": "28h 9m 49.5s",
+    "wall_seconds": 101389.476041
+  },
+  "terminal_counts": {
+    "analyst/ANALYST_COMPLETE": 3,
+    "arbiter/ARBITER_COMPLETE": 8,
+    "arbiter/REMEDIATION_NEEDED": 3,
+    "auditor/AUDITOR_COMPLETE": 5,
+    "builder/BLOCKED": 1,
+    "builder/BUILDER_COMPLETE": 59,
+    "checker/CHECKER_PASS": 50,
+    "checker/FIX_NEEDED": 8,
+    "curator/BLOCKED": 8,
+    "doublechecker/DOUBLECHECK_PASS": 8,
+    "fixer/FIXER_COMPLETE": 8,
+    "manager/MANAGER_COMPLETE": 16,
+    "mechanic/BLOCKED": 4,
+    "planner/BLOCKED": 2,
+    "planner/PLANNER_COMPLETE": 16,
+    "professor/BLOCKED": 2,
+    "troubleshooter/TROUBLESHOOT_COMPLETE": 2,
+    "updater/BLOCKED": 1,
+    "updater/UPDATE_COMPLETE": 57
+  },
+  "usage_by_plane": {
+    "execution": {
+      "cached_input_tokens": 635467648,
+      "input_tokens": 662341084,
+      "output_tokens": 3032470,
+      "reasoning_output_tokens": 1054962
+    },
+    "learning": {
+      "cached_input_tokens": 5253760,
+      "input_tokens": 6359066,
+      "output_tokens": 97151,
+      "reasoning_output_tokens": 32129
+    },
+    "planning": {
+      "cached_input_tokens": 53122816,
+      "input_tokens": 58041723,
+      "output_tokens": 535263,
+      "reasoning_output_tokens": 181194
+    }
+  },
+  "usage_by_stage": {
+    "execution/builder": {
+      "cached_input_tokens": 412398080,
+      "input_tokens": 424058406,
+      "output_tokens": 1683221,
+      "reasoning_output_tokens": 565676
+    },
+    "execution/checker": {
+      "cached_input_tokens": 122372480,
+      "input_tokens": 129957669,
+      "output_tokens": 598940,
+      "reasoning_output_tokens": 245116
+    },
+    "execution/doublechecker": {
+      "cached_input_tokens": 12601856,
+      "input_tokens": 13426964,
+      "output_tokens": 61840,
+      "reasoning_output_tokens": 20994
+    },
+    "execution/fixer": {
+      "cached_input_tokens": 24892544,
+      "input_tokens": 25981598,
+      "output_tokens": 126788,
+      "reasoning_output_tokens": 44867
+    },
+    "execution/troubleshooter": {
+      "cached_input_tokens": 1099648,
+      "input_tokens": 1261336,
+      "output_tokens": 16875,
+      "reasoning_output_tokens": 6117
+    },
+    "execution/updater": {
+      "cached_input_tokens": 62103040,
+      "input_tokens": 67655111,
+      "output_tokens": 544806,
+      "reasoning_output_tokens": 172192
+    },
+    "learning/analyst": {
+      "cached_input_tokens": 1291008,
+      "input_tokens": 1497014,
+      "output_tokens": 27662,
+      "reasoning_output_tokens": 10821
+    },
+    "learning/curator": {
+      "cached_input_tokens": 3499648,
+      "input_tokens": 4261460,
+      "output_tokens": 57137,
+      "reasoning_output_tokens": 17507
+    },
+    "learning/professor": {
+      "cached_input_tokens": 463104,
+      "input_tokens": 600592,
+      "output_tokens": 12352,
+      "reasoning_output_tokens": 3801
+    },
+    "planning/arbiter": {
+      "cached_input_tokens": 27362560,
+      "input_tokens": 28918632,
+      "output_tokens": 145034,
+      "reasoning_output_tokens": 40990
+    },
+    "planning/auditor": {
+      "cached_input_tokens": 3222400,
+      "input_tokens": 3794510,
+      "output_tokens": 56526,
+      "reasoning_output_tokens": 19276
+    },
+    "planning/manager": {
+      "cached_input_tokens": 7952384,
+      "input_tokens": 9333287,
+      "output_tokens": 176737,
+      "reasoning_output_tokens": 64958
+    },
+    "planning/planner": {
+      "cached_input_tokens": 14585472,
+      "input_tokens": 15995294,
+      "output_tokens": 156966,
+      "reasoning_output_tokens": 55970
+    }
+  },
+  "usage_totals": {
+    "cached_input_tokens": 693844224,
+    "input_tokens": 726741873,
+    "output_tokens": 3664884,
+    "reasoning_output_tokens": 1268285
+  },
+  "version": "v0.1.0"
+}
