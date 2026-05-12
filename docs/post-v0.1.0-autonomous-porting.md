@@ -6,9 +6,9 @@ reader summary: it records release outcomes, parity targets, and sanitized
 operational facts, not raw daemon logs or private workspace state.
 
 As of 2026-05-12, the Rust port has continued from a one-time proof into an
-autonomous maintenance loop for the `millrace-ai` crate, and the same pattern
-has been applied to a second project, `millracer`, as an in-progress downstream
-porting harness.
+autonomous maintenance loop for the `millrace-ai` crate. The same pattern is
+also being applied to a second project, `millracer`, whose evidence belongs in
+the separate `millracer-rs-port-docs` repository.
 
 ## Public Release Timeline
 
@@ -95,34 +95,14 @@ CLI/runtime crate rather than a full Python package mirror.
 The same auto-port pattern has also been adapted for a second project:
 `millracer`.
 
-Completed public setup:
+The downstream evidence should be read in
+[`tim-osterhus/millracer-rs-port-docs`](https://github.com/tim-osterhus/millracer-rs-port-docs),
+not in this repository. This repo may point to that work, but should not mix
+Millrace self-port claims with Millracer release claims.
 
-- `millracer` `v0.1.0` was published as a seed Rust crate.
-- The crate is owned by the public `tim-osterhus/millracer-rs` repository.
-- crates.io reported `millracer` `v0.1.0` as the latest published version during
-  this update.
-
-In-progress autonomous porting state on 2026-05-12:
-
-- Python reference target: `millracer` `v0.1.4`.
-- Rust target version for the bootstrap parity release: `0.1.1`.
-- Rust Millrace runtime used by the harness: `millrace-ai` `0.3.2`.
-- Root idea: bootstrap Python `millracer` `v0.1.4` parity into the Rust crate.
-- Completed execution slices observed so far:
-  - foundation CLI and JSON boundary;
-  - decision, intake, scoped-work, prompt, and benchmark semantics.
-- Active execution slice observed during this update:
-  - Pi command and RPC harness parity.
-- Remaining queued slices observed during this update:
-  - Millrace controller lifecycle;
-  - daemon monitoring;
-  - agent/operator orchestration;
-  - release readiness.
-
-This is not yet a completion proof for `millracer`. It is included here because
-it demonstrates the next use of the same loop: using the Rust Millrace runtime
-and the established auto-port harness pattern to pursue parity for another
-Python project.
+The reason to mention Millracer here is narrow: it demonstrates the next use of
+the same loop, using the Rust Millrace runtime and established auto-port harness
+pattern to pursue parity for another Python project.
 
 ## Learning Feedback
 

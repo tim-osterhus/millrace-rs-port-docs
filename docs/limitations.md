@@ -4,6 +4,10 @@ This repository is a proof package, not a magical eraser for all uncertainty.
 It aims to make the Rust-port campaign inspectable and mechanically checkable,
 while being precise about the claim.
 
+For the full claim matrix, read [`../CLAIMS.md`](../CLAIMS.md) first. The
+cleanest classification is "bounded Level 5 autonomous software-factory cell
+for Python-to-Rust parity maintenance," not "universal software factory."
+
 ## What The v0.1.0 Proof Claims
 
 - Python Millrace v0.16.1 accepted eight seeded parity ideas for a Rust port.
@@ -19,6 +23,8 @@ while being precise about the claim.
 ## What The v0.1.0 Proof Does Not Claim
 
 - It does not claim the Rust crate autonomously rebuilt itself.
+- It does not claim universal autonomous software development across arbitrary
+  projects.
 - It does not claim the proof documents alone contain every raw artifact.
 - It does not claim every future Rust surface is stable API.
 - It does not claim Pi live-runner behavior was proven in the post-publish
@@ -41,6 +47,14 @@ while being precise about the claim.
   checkout is available. For the public bundle, it checks embedded summaries,
   stage envelopes, checksums, and sanitizer policy; it does not replay the
   original long-running agent work.
+- The public evidence does not prove an absence of all human observation. It
+  supports narrower claims such as no manual Rust code edits inside the
+  autonomous porting window and release-gate-driven publishing for later
+  maintenance releases.
+
+For the human-action boundary, see
+[`../HUMAN_INTERVENTION_LEDGER.md`](../HUMAN_INTERVENTION_LEDGER.md). For the
+redaction boundary, see [`../REDACTION_POLICY.md`](../REDACTION_POLICY.md).
 
 ## Why This Is Still Useful
 

@@ -1,33 +1,41 @@
-# Millrace Rust Port Documentation
+# Millrace Rust Port Evidence
 
-This repository is the public evidence and narrative package for the autonomous
-Rust port of Millrace.
+This repository is the public evidence package for Millrace's Rust port and
+follow-on Rust parity maintenance loop.
+
+The short version:
+
+> Millrace has demonstrated a bounded Level 5 autonomous software-factory cell
+> for Python-to-Rust parity generation and maintenance. It has not demonstrated
+> universal Level 5 autonomy for arbitrary software products.
 
 The Rust crate itself lives at
-[`tim-osterhus/millrace-rs`](https://github.com/tim-osterhus/millrace-rs). That
-repository is intentionally utilitarian: install, use, test, and evolve the
-Rust crate. This repository carries the heavier proof material: the port
-roadmap, seeded ideas, autonomous-build metrics, raw-evidence verification
-scripts, and post-publish efficacy notes.
+[`tim-osterhus/millrace-rs`](https://github.com/tim-osterhus/millrace-rs). This
+repository carries the proof material: claim boundaries, evidence bundles,
+metrics, verification scripts, redaction policy, and reader-facing summaries.
 
-## Start Here
+## Read This First
 
-- [Autonomous build proof](docs/v0.1.0-autonomous-build-proof.md): detailed
-  metrics for the Python Millrace v0.16.1 campaign that built
-  `millrace-ai` v0.1.0 in Rust.
-- [How to verify](docs/how-to-verify.md): one-command checks for recomputing
-  the published metrics from raw artifacts.
-- [Limitations](docs/limitations.md): what the proof does and does not claim.
-- [Public reader guide](docs/public-reader-guide.md): a short orientation for
-  readers who are new to Millrace.
-- [Rust port roadmap](docs/rust-port-roadmap.md): the original parity plan.
-- [Seeded ideas](docs/seeded-ideas/): the eight large work slices fed into
-  Millrace.
-- [Post-publish Rust efficacy run](docs/rust-efficacy-run.md): a live smoke of
-  the published Rust crate.
-- [Post-v0.1.0 autonomous porting](docs/post-v0.1.0-autonomous-porting.md):
-  what happened after the initial proof, including the Rust maintenance releases
-  through `millrace-ai` `v0.3.2` and the in-progress Millracer harness.
+- [`CLAIMS.md`](CLAIMS.md): the claim matrix, including what is and is not
+  proven.
+- [`FOR_SKEPTICS.md`](FOR_SKEPTICS.md): direct answers to the obvious skeptical
+  objections.
+- [`HUMAN_INTERVENTION_LEDGER.md`](HUMAN_INTERVENTION_LEDGER.md): where humans
+  acted, where the release gate acted, and where no manual code edits are
+  claimed.
+- [`EVIDENCE_LEVELS.md`](EVIDENCE_LEVELS.md): what kind of evidence each claim
+  has.
+- [`REDACTION_POLICY.md`](REDACTION_POLICY.md): what the public bundles remove
+  and why.
+
+## Proof Tracks
+
+| Track | Status | Start here |
+| --- | --- | --- |
+| Initial Rust port | Publicly evidenced | [`docs/01-initial-rust-port-v0.1.0.md`](docs/01-initial-rust-port-v0.1.0.md) |
+| Published Rust crate efficacy smoke | Publicly evidenced smoke | [`docs/rust-efficacy-run.md`](docs/rust-efficacy-run.md) |
+| Post-`v0.1.0` autonomous maintenance loop | Strongest public claim | [`docs/02-autonomous-maintenance-loop-v0.2.0-v0.3.2.md`](docs/02-autonomous-maintenance-loop-v0.2.0-v0.3.2.md) |
+| Downstream Millracer port | Separate downstream evidence repo | [`docs/03-downstream-millracer-rs-port.md`](docs/03-downstream-millracer-rs-port.md) |
 
 ## Headline v0.1.0 Metrics
 
@@ -45,73 +53,46 @@ scripts, and post-publish efficacy notes.
 | Output tokens | 3,664,884 |
 | Reasoning output tokens | 1,268,285 |
 
-These figures are generated from the raw Millrace run artifacts, not hand
-counted. The generated summaries live under
+These figures are generated from Millrace run artifacts, not hand counted. The
+generated summaries live under
 [`evidence/v0.1.0/generated/`](evidence/v0.1.0/generated/).
-
-## After The Initial Proof
-
-The Rust port has continued beyond `v0.1.0`. As of 2026-05-12, the public
-`millrace-ai` crate has advanced through `v0.3.2`, tracking Python Millrace
-through `v0.18.2` by way of the autonomous auto-port loop. The same harness
-pattern is also being applied to the separate `millracer` crate, where a
-bootstrap parity run from Python `millracer` `v0.1.4` to Rust `0.1.1` is in
-progress.
-
-See [Post-v0.1.0 autonomous porting](docs/post-v0.1.0-autonomous-porting.md)
-for the release timeline, version policy, and public-safe status summary.
 
 ## Post-v0.1.0 Evidence
 
 The follow-on port runs are tracked as one evidence directory per Rust release.
-The generated summaries and checksums are committed; the matching tarballs are
-release-asset candidates and are intentionally kept out of git.
+The generated summaries and checksums are committed; matching tarballs are
+published as release assets and may also exist locally under `dist/`.
 
-| Rust release | Evidence directory | Bundle SHA256 |
-| --- | --- | --- |
-| `v0.2.0` | [`evidence/v0.2.0/`](evidence/v0.2.0/) | `39f4797d629810a5d6a82457343b0ee3351351dc2c342dfe1593ac70c91d94be` |
-| `v0.2.1` | [`evidence/v0.2.1/`](evidence/v0.2.1/) | `6bc0e5da724c426c4450fe02e5472da6b7663111039fb6308f5493c82b608ca7` |
-| `v0.3.0` | [`evidence/v0.3.0/`](evidence/v0.3.0/) | `286aabfd4c476de458ba53d661368e6471fa7ca0c4f21ba2fef13fcef4e25123` |
-| `v0.3.1` | [`evidence/v0.3.1/`](evidence/v0.3.1/) | `3f7940f6c4df5a37d3f280d1942da8da844e93cf6d2cdc67a78c999c82d8522e` |
-| `v0.3.2` | [`evidence/v0.3.2/`](evidence/v0.3.2/) | `2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987` |
+| Rust release | Python range | Evidence directory | Bundle SHA256 |
+| --- | --- | --- | --- |
+| `v0.2.0` | `v0.16.1 -> v0.17.3` | [`evidence/v0.2.0/`](evidence/v0.2.0/) | `39f4797d629810a5d6a82457343b0ee3351351dc2c342dfe1593ac70c91d94be` |
+| `v0.2.1` | `v0.17.3 -> v0.17.4` | [`evidence/v0.2.1/`](evidence/v0.2.1/) | `6bc0e5da724c426c4450fe02e5472da6b7663111039fb6308f5493c82b608ca7` |
+| `v0.3.0` | `v0.17.4 -> v0.18.0` | [`evidence/v0.3.0/`](evidence/v0.3.0/) | `286aabfd4c476de458ba53d661368e6471fa7ca0c4f21ba2fef13fcef4e25123` |
+| `v0.3.1` | `v0.18.0 -> v0.18.1` | [`evidence/v0.3.1/`](evidence/v0.3.1/) | `3f7940f6c4df5a37d3f280d1942da8da844e93cf6d2cdc67a78c999c82d8522e` |
+| `v0.3.2` | `v0.18.1 -> v0.18.2` | [`evidence/v0.3.2/`](evidence/v0.3.2/) | `2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987` |
 
-You can recreate and verify those bundles with:
+Verify one of these bundles with:
 
 ```bash
-python3 scripts/export_post_v0_1_0_evidence.py --source ../millrace-rs --versions all
 python3 scripts/verify_post_v0_1_0_evidence.py \
   --bundle dist/v0.3.2-port-evidence.tar.gz \
   --version 0.3.2 \
   --sha256 2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987
 ```
 
-## Evidence Bundle
+## v0.1.0 Evidence Bundle
 
-The sanitized public evidence bundle is intentionally not committed to git
-because it is large and mostly machine-readable run artifacts. The exporter
-excludes raw runner event streams, raw completion payloads, daemon logs, process
-environment dumps, and pycache files; it also redacts local path roots,
-hostnames, and captured auth/cookie-style header values before archiving. The
-expected public artifact is a release asset named:
+The initial sanitized public bundle is published as:
 
-```text
-v0.1.0-port-evidence.tar.gz
-```
+[`v0.1.0-port-evidence.tar.gz`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/download/v0.1.0/v0.1.0-port-evidence.tar.gz)
 
-Local export details from this workspace:
+Bundle details:
 
 - Files in bundle: 386
 - SHA256: `46f620b8a4054dd11a7e4db48dd358d713d2042c1e7255278f61081e64609e06`
 - Release: [`v0.1.0`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/tag/v0.1.0)
-- Download: [`v0.1.0-port-evidence.tar.gz`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/download/v0.1.0/v0.1.0-port-evidence.tar.gz)
 
-If you have an adjacent checkout of `millrace-rs`, you can recreate that bundle:
-
-```bash
-python3 scripts/export_v0_1_0_evidence.py --source ../millrace-rs --output dist/v0.1.0-port-evidence.tar.gz
-```
-
-Then verify the metrics:
+Verify it with:
 
 ```bash
 python3 scripts/verify_v0_1_0_evidence.py \
@@ -119,12 +100,19 @@ python3 scripts/verify_v0_1_0_evidence.py \
   --sha256 46f620b8a4054dd11a7e4db48dd358d713d2042c1e7255278f61081e64609e06
 ```
 
-For the local workspace layout used during development, this shorter command is
-equivalent:
+## Supporting Docs
 
-```bash
-./scripts/verify_v0_1_0_evidence.sh
-```
+- [`docs/how-to-verify.md`](docs/how-to-verify.md): verification commands and
+  verifier boundaries.
+- [`docs/limitations.md`](docs/limitations.md): residual caveats.
+- [`docs/public-reader-guide.md`](docs/public-reader-guide.md): orientation for
+  readers new to Millrace.
+- [`docs/rust-port-roadmap.md`](docs/rust-port-roadmap.md): the original parity
+  plan.
+- [`docs/seeded-ideas/`](docs/seeded-ideas/): the eight large work slices fed
+  into Millrace.
+- [`EVIDENCE_PACKET_STANDARD.md`](EVIDENCE_PACKET_STANDARD.md): the desired
+  generated shape for future Blogger-produced packets.
 
 ## License
 

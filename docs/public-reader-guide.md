@@ -42,11 +42,14 @@ The detailed proof is in
 
 ## How Should I Read This Repository?
 
-1. Read the [README](../README.md) for the short version.
-2. Read the [limitations](limitations.md) so the claim is clear.
-3. Skim the [seeded ideas](seeded-ideas/) to understand the work slices.
-4. Open the [proof document](v0.1.0-autonomous-build-proof.md) for metrics.
-5. Run the [verifier](how-to-verify.md) if you want mechanical confirmation.
+1. Read the [claim matrix](../CLAIMS.md) so the proof boundary is clear.
+2. Read [For skeptics](../FOR_SKEPTICS.md) for the direct caveats.
+3. Read the [README](../README.md) for the short version.
+4. Read the [limitations](limitations.md) and
+   [human-intervention ledger](../HUMAN_INTERVENTION_LEDGER.md).
+5. Skim the [seeded ideas](seeded-ideas/) to understand the work slices.
+6. Open the [proof document](v0.1.0-autonomous-build-proof.md) for metrics.
+7. Run the [verifier](how-to-verify.md) if you want mechanical confirmation.
 
 ## Why Is This Separate From `millrace-rs`?
 
