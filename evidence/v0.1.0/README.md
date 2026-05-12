@@ -8,17 +8,17 @@ campaign.
 - `generated/slice-summary.csv`: slice-level run/stage/task/timing/token totals.
 - `generated/checksums.sha256`: SHA256 checksums for generated summaries.
 
-The sanitized raw run artifacts are not committed here. They should be
+The sanitized public evidence bundle is not committed here. It should be
 distributed as a release asset named:
 
 ```text
 v0.1.0-port-evidence.tar.gz
 ```
 
-Local export details from the original workspace:
+Local export details from the current public bundle:
 
-- Files in bundle: 940
-- SHA256: `faffab654195d12b97788b35882435fcc35d64c4b9e0c26ec6468dee9fff4293`
+- Files in bundle: 386
+- SHA256: `46f620b8a4054dd11a7e4db48dd358d713d2042c1e7255278f61081e64609e06`
 
 Recreate the generated summaries from an adjacent `millrace-rs` checkout:
 

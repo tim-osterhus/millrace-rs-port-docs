@@ -31,11 +31,15 @@ while being precise about the claim.
 - Token totals come from 254 raw Codex `turn.completed` usage payloads.
 - Seven recorded stage results had no usage payload and are excluded from token
   totals while still counted in stage, timing, and terminal-result metrics.
-- The sanitized raw evidence bundle is expected to be distributed as a release
-  asset rather than committed directly to git.
-- The public bundle redacts local path roots and captured auth/cookie-style
-  header values before publication.
-- The verifier checks metrics against raw artifacts; it does not replay the
+- The sanitized public evidence bundle is expected to be distributed as a
+  release asset rather than committed directly to git.
+- The public bundle excludes raw runner event streams, raw completion payloads,
+  daemon logs, process environment dumps, and pycache files.
+- The public bundle redacts local path roots, hostnames, and captured
+  auth/cookie-style header values before publication.
+- The verifier checks metrics against raw artifacts when an adjacent development
+  checkout is available. For the public bundle, it checks embedded summaries,
+  stage envelopes, checksums, and sanitizer policy; it does not replay the
   original long-running agent work.
 
 ## Why This Is Still Useful

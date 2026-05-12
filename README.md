@@ -87,10 +87,11 @@ python3 scripts/verify_post_v0_1_0_evidence.py \
 
 ## Evidence Bundle
 
-The sanitized raw evidence bundle is intentionally not committed to git because
-it is large and mostly machine-readable run artifacts. The exporter redacts
-local path roots and captured auth/cookie-style header values before archiving;
-those redactions do not affect the metrics the verifier recomputes. The
+The sanitized public evidence bundle is intentionally not committed to git
+because it is large and mostly machine-readable run artifacts. The exporter
+excludes raw runner event streams, raw completion payloads, daemon logs, process
+environment dumps, and pycache files; it also redacts local path roots,
+hostnames, and captured auth/cookie-style header values before archiving. The
 expected public artifact is a release asset named:
 
 ```text
@@ -99,8 +100,8 @@ v0.1.0-port-evidence.tar.gz
 
 Local export details from this workspace:
 
-- Files in bundle: 940
-- SHA256: `faffab654195d12b97788b35882435fcc35d64c4b9e0c26ec6468dee9fff4293`
+- Files in bundle: 386
+- SHA256: `46f620b8a4054dd11a7e4db48dd358d713d2042c1e7255278f61081e64609e06`
 - Release: [`v0.1.0`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/tag/v0.1.0)
 - Download: [`v0.1.0-port-evidence.tar.gz`](https://github.com/tim-osterhus/millrace-rs-port-docs/releases/download/v0.1.0/v0.1.0-port-evidence.tar.gz)
 
@@ -115,7 +116,7 @@ Then verify the metrics:
 ```bash
 python3 scripts/verify_v0_1_0_evidence.py \
   --bundle dist/v0.1.0-port-evidence.tar.gz \
-  --sha256 faffab654195d12b97788b35882435fcc35d64c4b9e0c26ec6468dee9fff4293
+  --sha256 46f620b8a4054dd11a7e4db48dd358d713d2042c1e7255278f61081e64609e06
 ```
 
 For the local workspace layout used during development, this shorter command is
