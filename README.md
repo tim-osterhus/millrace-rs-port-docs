@@ -25,6 +25,9 @@ scripts, and post-publish efficacy notes.
   Millrace.
 - [Post-publish Rust efficacy run](docs/rust-efficacy-run.md): a live smoke of
   the published Rust crate.
+- [Post-v0.1.0 autonomous porting](docs/post-v0.1.0-autonomous-porting.md):
+  what happened after the initial proof, including the Rust maintenance releases
+  through `millrace-ai` `v0.3.2` and the in-progress Millracer harness.
 
 ## Headline v0.1.0 Metrics
 
@@ -45,6 +48,18 @@ scripts, and post-publish efficacy notes.
 These figures are generated from the raw Millrace run artifacts, not hand
 counted. The generated summaries live under
 [`evidence/v0.1.0/generated/`](evidence/v0.1.0/generated/).
+
+## After The Initial Proof
+
+The Rust port has continued beyond `v0.1.0`. As of 2026-05-12, the public
+`millrace-ai` crate has advanced through `v0.3.2`, tracking Python Millrace
+through `v0.18.2` by way of the autonomous auto-port loop. The same harness
+pattern is also being applied to the separate `millracer` crate, where a
+bootstrap parity run from Python `millracer` `v0.1.4` to Rust `0.1.1` is in
+progress.
+
+See [Post-v0.1.0 autonomous porting](docs/post-v0.1.0-autonomous-porting.md)
+for the release timeline, version policy, and public-safe status summary.
 
 ## Evidence Bundle
 
