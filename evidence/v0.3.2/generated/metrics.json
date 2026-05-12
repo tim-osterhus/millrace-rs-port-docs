@@ -1,0 +1,393 @@
+{
+  "idea_id": "idea-auto-port-python-v0.18.1-to-v0.18.2-rust-0.3.2",
+  "python_from": "v0.18.1",
+  "python_to": "v0.18.2",
+  "result_class_counts": {
+    "recoverable_failure": 2,
+    "success": 28
+  },
+  "run_stage_counts": {
+    "run-2e6ef428cdc94fd5a78cf3021d546cf8": 3,
+    "run-79c4c5b5ce77444d8d3df01700374c60": 3,
+    "run-79cdca4a975645db96b22cef6e859347": 3,
+    "run-87e4d4e949e64541bdcf7e8493bb9af0": 3,
+    "run-a22bf0fe6e6b4dd78d0cab8812734248": 3,
+    "run-b772ae3e77064c86a340fbea6b58fb08": 1,
+    "run-cae92c7e622c4da1970295cabd072ec7": 3,
+    "run-cef6dbf439ad4ab2ab06c251505a5c20": 3,
+    "run-f5a0d4158733491c9ea46c54ea1d5342": 8
+  },
+  "source": "millrace-rs",
+  "stage_counts": {
+    "execution/builder": 9,
+    "execution/checker": 9,
+    "execution/troubleshooter": 2,
+    "execution/updater": 9,
+    "planning/arbiter": 1
+  },
+  "stage_results": [
+    {
+      "duration_seconds": 287.792314,
+      "path": "millrace-agents/runs/run-2e6ef428cdc94fd5a78cf3021d546cf8/stage_results/request-441ace47c94740b398a058b5c3a3edfa.json",
+      "plane": "execution",
+      "request_id": "request-441ace47c94740b398a058b5c3a3edfa",
+      "result_class": "success",
+      "run_id": "run-2e6ef428cdc94fd5a78cf3021d546cf8",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-06-stage-work-item-ownership-guard"
+    },
+    {
+      "duration_seconds": 1129.75721,
+      "path": "millrace-agents/runs/run-2e6ef428cdc94fd5a78cf3021d546cf8/stage_results/request-d66c4dc0b78a429986deda6e8fcaba15.json",
+      "plane": "execution",
+      "request_id": "request-d66c4dc0b78a429986deda6e8fcaba15",
+      "result_class": "success",
+      "run_id": "run-2e6ef428cdc94fd5a78cf3021d546cf8",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-06-stage-work-item-ownership-guard"
+    },
+    {
+      "duration_seconds": 355.623995,
+      "path": "millrace-agents/runs/run-2e6ef428cdc94fd5a78cf3021d546cf8/stage_results/request-fe55392015a74d169a85627543bd5323.json",
+      "plane": "execution",
+      "request_id": "request-fe55392015a74d169a85627543bd5323",
+      "result_class": "success",
+      "run_id": "run-2e6ef428cdc94fd5a78cf3021d546cf8",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-06-stage-work-item-ownership-guard"
+    },
+    {
+      "duration_seconds": 308.189813,
+      "path": "millrace-agents/runs/run-79c4c5b5ce77444d8d3df01700374c60/stage_results/request-1e1b8ba4db28463cb7cb5eb3bca10c6b.json",
+      "plane": "execution",
+      "request_id": "request-1e1b8ba4db28463cb7cb5eb3bca10c6b",
+      "result_class": "success",
+      "run_id": "run-79c4c5b5ce77444d8d3df01700374c60",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 363.591862,
+      "path": "millrace-agents/runs/run-79c4c5b5ce77444d8d3df01700374c60/stage_results/request-86883f0323854a1b88363745cdf96fc1.json",
+      "plane": "execution",
+      "request_id": "request-86883f0323854a1b88363745cdf96fc1",
+      "result_class": "success",
+      "run_id": "run-79c4c5b5ce77444d8d3df01700374c60",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 1040.711603,
+      "path": "millrace-agents/runs/run-79c4c5b5ce77444d8d3df01700374c60/stage_results/request-c40cce01c80444caaece20a3844966a2.json",
+      "plane": "execution",
+      "request_id": "request-c40cce01c80444caaece20a3844966a2",
+      "result_class": "success",
+      "run_id": "run-79c4c5b5ce77444d8d3df01700374c60",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 660.301866,
+      "path": "millrace-agents/runs/run-79cdca4a975645db96b22cef6e859347/stage_results/request-633d8597f25a45458a35d91a9e629698.json",
+      "plane": "execution",
+      "request_id": "request-633d8597f25a45458a35d91a9e629698",
+      "result_class": "success",
+      "run_id": "run-79cdca4a975645db96b22cef6e859347",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-05-recon-handoff-graph-hardening"
+    },
+    {
+      "duration_seconds": 342.517502,
+      "path": "millrace-agents/runs/run-79cdca4a975645db96b22cef6e859347/stage_results/request-8651b7ebdd36434085654a38e8156cac.json",
+      "plane": "execution",
+      "request_id": "request-8651b7ebdd36434085654a38e8156cac",
+      "result_class": "success",
+      "run_id": "run-79cdca4a975645db96b22cef6e859347",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-05-recon-handoff-graph-hardening"
+    },
+    {
+      "duration_seconds": 248.516383,
+      "path": "millrace-agents/runs/run-79cdca4a975645db96b22cef6e859347/stage_results/request-e8f9df31b7a04cb8a42016d22cc7f17a.json",
+      "plane": "execution",
+      "request_id": "request-e8f9df31b7a04cb8a42016d22cc7f17a",
+      "result_class": "success",
+      "run_id": "run-79cdca4a975645db96b22cef6e859347",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-05-recon-handoff-graph-hardening"
+    },
+    {
+      "duration_seconds": 397.245197,
+      "path": "millrace-agents/runs/run-87e4d4e949e64541bdcf7e8493bb9af0/stage_results/request-4550de7792c64afe8978923d531ea11a.json",
+      "plane": "execution",
+      "request_id": "request-4550de7792c64afe8978923d531ea11a",
+      "result_class": "success",
+      "run_id": "run-87e4d4e949e64541bdcf7e8493bb9af0",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-07-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 1285.537522,
+      "path": "millrace-agents/runs/run-87e4d4e949e64541bdcf7e8493bb9af0/stage_results/request-465701e1e9b0411583d341a55eca4c1c.json",
+      "plane": "execution",
+      "request_id": "request-465701e1e9b0411583d341a55eca4c1c",
+      "result_class": "success",
+      "run_id": "run-87e4d4e949e64541bdcf7e8493bb9af0",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-07-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 132.626888,
+      "path": "millrace-agents/runs/run-87e4d4e949e64541bdcf7e8493bb9af0/stage_results/request-9f4fb8badebd4faeaf6004168d266235.json",
+      "plane": "execution",
+      "request_id": "request-9f4fb8badebd4faeaf6004168d266235",
+      "result_class": "success",
+      "run_id": "run-87e4d4e949e64541bdcf7e8493bb9af0",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-07-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 305.077694,
+      "path": "millrace-agents/runs/run-a22bf0fe6e6b4dd78d0cab8812734248/stage_results/request-657cf6f99d9148a89103546dcf1340ae.json",
+      "plane": "execution",
+      "request_id": "request-657cf6f99d9148a89103546dcf1340ae",
+      "result_class": "success",
+      "run_id": "run-a22bf0fe6e6b4dd78d0cab8812734248",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-02-integrator-contracts-assets-compiler"
+    },
+    {
+      "duration_seconds": 928.145452,
+      "path": "millrace-agents/runs/run-a22bf0fe6e6b4dd78d0cab8812734248/stage_results/request-9ba29a5fa98248f3b0a2a6e19dfd6f85.json",
+      "plane": "execution",
+      "request_id": "request-9ba29a5fa98248f3b0a2a6e19dfd6f85",
+      "result_class": "success",
+      "run_id": "run-a22bf0fe6e6b4dd78d0cab8812734248",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-02-integrator-contracts-assets-compiler"
+    },
+    {
+      "duration_seconds": 284.869756,
+      "path": "millrace-agents/runs/run-a22bf0fe6e6b4dd78d0cab8812734248/stage_results/request-e63854b19fad4c4e902c8d6cdf0d44de.json",
+      "plane": "execution",
+      "request_id": "request-e63854b19fad4c4e902c8d6cdf0d44de",
+      "result_class": "success",
+      "run_id": "run-a22bf0fe6e6b4dd78d0cab8812734248",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-02-integrator-contracts-assets-compiler"
+    },
+    {
+      "duration_seconds": 467.811395,
+      "path": "millrace-agents/runs/run-b772ae3e77064c86a340fbea6b58fb08/stage_results/request-916f76d794f343bd99bbf1065411a2e3.json",
+      "plane": "planning",
+      "request_id": "request-916f76d794f343bd99bbf1065411a2e3",
+      "result_class": "success",
+      "run_id": "run-b772ae3e77064c86a340fbea6b58fb08",
+      "stage": "arbiter",
+      "terminal_result": "ARBITER_COMPLETE",
+      "work_item_id": "idea-auto-port-python-v0.18.1-to-v0.18.2-rust-0.3.2"
+    },
+    {
+      "duration_seconds": 821.793799,
+      "path": "millrace-agents/runs/run-cae92c7e622c4da1970295cabd072ec7/stage_results/request-455bc14fae7e46f79cadc67d9417c7ba.json",
+      "plane": "execution",
+      "request_id": "request-455bc14fae7e46f79cadc67d9417c7ba",
+      "result_class": "success",
+      "run_id": "run-cae92c7e622c4da1970295cabd072ec7",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-03-integrated-modes-runtime-routing"
+    },
+    {
+      "duration_seconds": 318.406925,
+      "path": "millrace-agents/runs/run-cae92c7e622c4da1970295cabd072ec7/stage_results/request-7594c6fd39c84a7aa4593e103f3b712d.json",
+      "plane": "execution",
+      "request_id": "request-7594c6fd39c84a7aa4593e103f3b712d",
+      "result_class": "success",
+      "run_id": "run-cae92c7e622c4da1970295cabd072ec7",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-03-integrated-modes-runtime-routing"
+    },
+    {
+      "duration_seconds": 382.991798,
+      "path": "millrace-agents/runs/run-cae92c7e622c4da1970295cabd072ec7/stage_results/request-8fa28f7c78ad4a15b0a481cc5fc504a3.json",
+      "plane": "execution",
+      "request_id": "request-8fa28f7c78ad4a15b0a481cc5fc504a3",
+      "result_class": "success",
+      "run_id": "run-cae92c7e622c4da1970295cabd072ec7",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-03-integrated-modes-runtime-routing"
+    },
+    {
+      "duration_seconds": 340.378538,
+      "path": "millrace-agents/runs/run-cef6dbf439ad4ab2ab06c251505a5c20/stage_results/request-77baf55950f64f87acf3dbe9b3ccfd30.json",
+      "plane": "execution",
+      "request_id": "request-77baf55950f64f87acf3dbe9b3ccfd30",
+      "result_class": "success",
+      "run_id": "run-cef6dbf439ad4ab2ab06c251505a5c20",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-04-status-json-diagnostics"
+    },
+    {
+      "duration_seconds": 634.509076,
+      "path": "millrace-agents/runs/run-cef6dbf439ad4ab2ab06c251505a5c20/stage_results/request-df51615c772148f6b44572b275abe670.json",
+      "plane": "execution",
+      "request_id": "request-df51615c772148f6b44572b275abe670",
+      "result_class": "success",
+      "run_id": "run-cef6dbf439ad4ab2ab06c251505a5c20",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-04-status-json-diagnostics"
+    },
+    {
+      "duration_seconds": 350.69992,
+      "path": "millrace-agents/runs/run-cef6dbf439ad4ab2ab06c251505a5c20/stage_results/request-ffe43790b214463699b3f4278ecb1ffe.json",
+      "plane": "execution",
+      "request_id": "request-ffe43790b214463699b3f4278ecb1ffe",
+      "result_class": "success",
+      "run_id": "run-cef6dbf439ad4ab2ab06c251505a5c20",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-04-status-json-diagnostics"
+    },
+    {
+      "duration_seconds": 336.666092,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-11f86ed372174a9a8c12eaf45cdd0391.json",
+      "plane": "execution",
+      "request_id": "request-11f86ed372174a9a8c12eaf45cdd0391",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 668.949712,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-2b51c06a26c142f7bd800d33de912b9f.json",
+      "plane": "execution",
+      "request_id": "request-2b51c06a26c142f7bd800d33de912b9f",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 369.385796,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-94a77abde16042539565dba902411bce.json",
+      "plane": "execution",
+      "request_id": "request-94a77abde16042539565dba902411bce",
+      "result_class": "recoverable_failure",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "updater",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 140.504839,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-9bb1ca3f4f5c4821bec36de6f33d6bdd.json",
+      "plane": "execution",
+      "request_id": "request-9bb1ca3f4f5c4821bec36de6f33d6bdd",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 837.123648,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-a94a3c960c1744ad8635c4a0a568a87f.json",
+      "plane": "execution",
+      "request_id": "request-a94a3c960c1744ad8635c4a0a568a87f",
+      "result_class": "recoverable_failure",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "troubleshooter",
+      "terminal_result": "BLOCKED",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 703.647628,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-c122804cafca41cbb22a22b660284ca4.json",
+      "plane": "execution",
+      "request_id": "request-c122804cafca41cbb22a22b660284ca4",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 891.913097,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-cf53e373760d45d2a22ab2bf56444f45.json",
+      "plane": "execution",
+      "request_id": "request-cf53e373760d45d2a22ab2bf56444f45",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    },
+    {
+      "duration_seconds": 940.04962,
+      "path": "millrace-agents/runs/run-f5a0d4158733491c9ea46c54ea1d5342/stage_results/request-efa77c7fea74448d9bedbbc2258fe1ed.json",
+      "plane": "execution",
+      "request_id": "request-efa77c7fea74448d9bedbbc2258fe1ed",
+      "result_class": "success",
+      "run_id": "run-f5a0d4158733491c9ea46c54ea1d5342",
+      "stage": "troubleshooter",
+      "terminal_result": "TROUBLESHOOT_COMPLETE",
+      "work_item_id": "auto-port-0-18-2-08-final-release-parity"
+    }
+  ],
+  "summary": {
+    "first_started_at": "2026-05-10T07:12:58.235032+00:00",
+    "last_completed_at": "2026-05-10T11:45:04.993485+00:00",
+    "request_id_count": 30,
+    "run_count": 9,
+    "stage_result_count": 30,
+    "sum_stage_duration_hms": "4h 31m 15.3s",
+    "sum_stage_duration_seconds": 16275.33694,
+    "wall_hms": "4h 32m 6.8s",
+    "wall_seconds": 16326.758453,
+    "work_item_count": 9
+  },
+  "terminal_counts": {
+    "arbiter/ARBITER_COMPLETE": 1,
+    "builder/BUILDER_COMPLETE": 9,
+    "checker/CHECKER_PASS": 9,
+    "troubleshooter/BLOCKED": 1,
+    "troubleshooter/TROUBLESHOOT_COMPLETE": 1,
+    "updater/BLOCKED": 1,
+    "updater/UPDATE_COMPLETE": 8
+  },
+  "version": "v0.3.2",
+  "work_item_stage_counts": {
+    "auto-port-0-18-2-01-parity-harness-scout": 3,
+    "auto-port-0-18-2-02-integrator-contracts-assets-compiler": 3,
+    "auto-port-0-18-2-03-integrated-modes-runtime-routing": 3,
+    "auto-port-0-18-2-04-status-json-diagnostics": 3,
+    "auto-port-0-18-2-05-recon-handoff-graph-hardening": 3,
+    "auto-port-0-18-2-06-stage-work-item-ownership-guard": 3,
+    "auto-port-0-18-2-07-docs-version-web-gap": 3,
+    "auto-port-0-18-2-08-final-release-parity": 8,
+    "idea-auto-port-python-v0.18.1-to-v0.18.2-rust-0.3.2": 1
+  }
+}

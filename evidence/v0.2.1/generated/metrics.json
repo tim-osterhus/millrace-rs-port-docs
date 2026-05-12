@@ -1,0 +1,228 @@
+{
+  "idea_id": "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1",
+  "python_from": "v0.17.3",
+  "python_to": "v0.17.4",
+  "result_class_counts": {
+    "success": 16
+  },
+  "run_stage_counts": {
+    "run-2376d907d6a7448dafac808452625283": 3,
+    "run-5ec6d3b1bf5e4204abf907d638bffc37": 3,
+    "run-5fec7e3f12ba4d0f8903d9f0db3e490f": 3,
+    "run-6164cfceb6f24a1292757bf88c275331": 1,
+    "run-b6a85614e6184e179d4d9632def37d47": 3,
+    "run-cbbf145a108d449ba84612403081a5e6": 3
+  },
+  "source": "millrace-rs",
+  "stage_counts": {
+    "execution/builder": 5,
+    "execution/checker": 5,
+    "execution/updater": 5,
+    "planning/arbiter": 1
+  },
+  "stage_results": [
+    {
+      "duration_seconds": 1978.86315,
+      "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-4873e669e8164de69e499623b395110a.json",
+      "plane": "execution",
+      "request_id": "request-4873e669e8164de69e499623b395110a",
+      "result_class": "success",
+      "run_id": "run-2376d907d6a7448dafac808452625283",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+    },
+    {
+      "duration_seconds": 352.202645,
+      "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-ba944bfce36b47f397dcafd2237f29a4.json",
+      "plane": "execution",
+      "request_id": "request-ba944bfce36b47f397dcafd2237f29a4",
+      "result_class": "success",
+      "run_id": "run-2376d907d6a7448dafac808452625283",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+    },
+    {
+      "duration_seconds": 352.651327,
+      "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-e4dccce044614d0f9b44c48298d5eb5d.json",
+      "plane": "execution",
+      "request_id": "request-e4dccce044614d0f9b44c48298d5eb5d",
+      "result_class": "success",
+      "run_id": "run-2376d907d6a7448dafac808452625283",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+    },
+    {
+      "duration_seconds": 543.908634,
+      "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-178f4d07f2124f8a927d049d2486903b.json",
+      "plane": "execution",
+      "request_id": "request-178f4d07f2124f8a927d049d2486903b",
+      "result_class": "success",
+      "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+    },
+    {
+      "duration_seconds": 301.250823,
+      "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-62ecc47e1a7f497a8873751787e00f53.json",
+      "plane": "execution",
+      "request_id": "request-62ecc47e1a7f497a8873751787e00f53",
+      "result_class": "success",
+      "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+    },
+    {
+      "duration_seconds": 254.902366,
+      "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-f81784aea66449868266144df8bfbcea.json",
+      "plane": "execution",
+      "request_id": "request-f81784aea66449868266144df8bfbcea",
+      "result_class": "success",
+      "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+    },
+    {
+      "duration_seconds": 232.190997,
+      "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-6b4da13dddb04c6d8cbc6380f2bcc8f3.json",
+      "plane": "execution",
+      "request_id": "request-6b4da13dddb04c6d8cbc6380f2bcc8f3",
+      "result_class": "success",
+      "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+    },
+    {
+      "duration_seconds": 239.312451,
+      "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-9184b8d2c5914661a2c17cbbd89b1a3f.json",
+      "plane": "execution",
+      "request_id": "request-9184b8d2c5914661a2c17cbbd89b1a3f",
+      "result_class": "success",
+      "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+    },
+    {
+      "duration_seconds": 1089.703378,
+      "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-bda1a6d1ca0e4d6c9f12f0b947796ea6.json",
+      "plane": "execution",
+      "request_id": "request-bda1a6d1ca0e4d6c9f12f0b947796ea6",
+      "result_class": "success",
+      "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+    },
+    {
+      "duration_seconds": 444.793377,
+      "path": "millrace-agents/runs/run-6164cfceb6f24a1292757bf88c275331/stage_results/request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4.json",
+      "plane": "planning",
+      "request_id": "request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4",
+      "result_class": "success",
+      "run_id": "run-6164cfceb6f24a1292757bf88c275331",
+      "stage": "arbiter",
+      "terminal_result": "ARBITER_COMPLETE",
+      "work_item_id": "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1"
+    },
+    {
+      "duration_seconds": 176.419765,
+      "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-72132668e5844b5986a8abf2b2119c2a.json",
+      "plane": "execution",
+      "request_id": "request-72132668e5844b5986a8abf2b2119c2a",
+      "result_class": "success",
+      "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+    },
+    {
+      "duration_seconds": 511.072621,
+      "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-7c072dfc3ea749beb8d82a75ad281b0c.json",
+      "plane": "execution",
+      "request_id": "request-7c072dfc3ea749beb8d82a75ad281b0c",
+      "result_class": "success",
+      "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+    },
+    {
+      "duration_seconds": 1265.990622,
+      "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-890b994fc52c4f87802118df35eb9efc.json",
+      "plane": "execution",
+      "request_id": "request-890b994fc52c4f87802118df35eb9efc",
+      "result_class": "success",
+      "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+    },
+    {
+      "duration_seconds": 214.000423,
+      "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-29edfdd694014795b953d3409e9c6f15.json",
+      "plane": "execution",
+      "request_id": "request-29edfdd694014795b953d3409e9c6f15",
+      "result_class": "success",
+      "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+    },
+    {
+      "duration_seconds": 292.686708,
+      "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-7651a9e27a6946dca555160ee4ff934a.json",
+      "plane": "execution",
+      "request_id": "request-7651a9e27a6946dca555160ee4ff934a",
+      "result_class": "success",
+      "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+    },
+    {
+      "duration_seconds": 880.405458,
+      "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-861d9a0507a84110a9e7436b50fd5ac7.json",
+      "plane": "execution",
+      "request_id": "request-861d9a0507a84110a9e7436b50fd5ac7",
+      "result_class": "success",
+      "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+    }
+  ],
+  "summary": {
+    "first_started_at": "2026-05-03T20:48:52.643437+00:00",
+    "last_completed_at": "2026-05-03T23:22:06.322712+00:00",
+    "request_id_count": 16,
+    "run_count": 6,
+    "stage_result_count": 16,
+    "sum_stage_duration_hms": "2h 32m 10.4s",
+    "sum_stage_duration_seconds": 9130.354745,
+    "wall_hms": "2h 33m 13.7s",
+    "wall_seconds": 9193.679275,
+    "work_item_count": 6
+  },
+  "terminal_counts": {
+    "arbiter/ARBITER_COMPLETE": 1,
+    "builder/BUILDER_COMPLETE": 5,
+    "checker/CHECKER_PASS": 5,
+    "updater/UPDATE_COMPLETE": 5
+  },
+  "version": "v0.2.1",
+  "work_item_stage_counts": {
+    "auto-port-0-17-4-01-noop-contracts-stage-metadata": 3,
+    "auto-port-0-17-4-02-learning-assets-compiler-triggers": 3,
+    "auto-port-0-17-4-03-runtime-learning-noop-lifecycle": 3,
+    "auto-port-0-17-4-04-parity-fixtures-tests": 3,
+    "auto-port-0-17-4-05-version-docs-release-evidence": 3,
+    "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1": 1
+  }
+}

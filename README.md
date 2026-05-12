@@ -61,6 +61,30 @@ progress.
 See [Post-v0.1.0 autonomous porting](docs/post-v0.1.0-autonomous-porting.md)
 for the release timeline, version policy, and public-safe status summary.
 
+## Post-v0.1.0 Evidence
+
+The follow-on port runs are tracked as one evidence directory per Rust release.
+The generated summaries and checksums are committed; the matching tarballs are
+release-asset candidates and are intentionally kept out of git.
+
+| Rust release | Evidence directory | Bundle SHA256 |
+| --- | --- | --- |
+| `v0.2.0` | [`evidence/v0.2.0/`](evidence/v0.2.0/) | `39f4797d629810a5d6a82457343b0ee3351351dc2c342dfe1593ac70c91d94be` |
+| `v0.2.1` | [`evidence/v0.2.1/`](evidence/v0.2.1/) | `6bc0e5da724c426c4450fe02e5472da6b7663111039fb6308f5493c82b608ca7` |
+| `v0.3.0` | [`evidence/v0.3.0/`](evidence/v0.3.0/) | `286aabfd4c476de458ba53d661368e6471fa7ca0c4f21ba2fef13fcef4e25123` |
+| `v0.3.1` | [`evidence/v0.3.1/`](evidence/v0.3.1/) | `3f7940f6c4df5a37d3f280d1942da8da844e93cf6d2cdc67a78c999c82d8522e` |
+| `v0.3.2` | [`evidence/v0.3.2/`](evidence/v0.3.2/) | `2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987` |
+
+You can recreate and verify those bundles with:
+
+```bash
+python3 scripts/export_post_v0_1_0_evidence.py --source ../millrace-rs --versions all
+python3 scripts/verify_post_v0_1_0_evidence.py \
+  --bundle dist/v0.3.2-port-evidence.tar.gz \
+  --version 0.3.2 \
+  --sha256 2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987
+```
+
 ## Evidence Bundle
 
 The sanitized raw evidence bundle is intentionally not committed to git because

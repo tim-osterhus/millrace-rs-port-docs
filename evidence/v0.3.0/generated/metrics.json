@@ -1,0 +1,263 @@
+{
+  "idea_id": "idea-auto-port-python-v0.17.4-to-v0.18.0-rust-0.3.0",
+  "python_from": "v0.17.4",
+  "python_to": "v0.18.0",
+  "result_class_counts": {
+    "success": 19
+  },
+  "run_stage_counts": {
+    "run-2fa46a0d3b6a44f6915ce4c8f3986f88": 3,
+    "run-30f996dfd5414a2898a9997a1052d6f0": 1,
+    "run-3abe06f338a840e78ce543301fb4bfad": 3,
+    "run-9e0616e103204df7bd555620be060644": 3,
+    "run-a7144b0d1b1a43679f32be50ed5db57b": 3,
+    "run-bed58cbd5d27453db5762fb81d13dbe3": 3,
+    "run-d7a44627804741ce869a0a99a7b66096": 3
+  },
+  "source": "millrace-rs",
+  "stage_counts": {
+    "execution/builder": 6,
+    "execution/checker": 6,
+    "execution/updater": 6,
+    "planning/arbiter": 1
+  },
+  "stage_results": [
+    {
+      "duration_seconds": 336.648902,
+      "path": "millrace-agents/runs/run-2fa46a0d3b6a44f6915ce4c8f3986f88/stage_results/request-959a51dbe19347a3908e5f0b3bd65548.json",
+      "plane": "execution",
+      "request_id": "request-959a51dbe19347a3908e5f0b3bd65548",
+      "result_class": "success",
+      "run_id": "run-2fa46a0d3b6a44f6915ce4c8f3986f88",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-02-compiled-graph-exports"
+    },
+    {
+      "duration_seconds": 235.37048,
+      "path": "millrace-agents/runs/run-2fa46a0d3b6a44f6915ce4c8f3986f88/stage_results/request-95fdc77c22bb46139890bafbe46fba0c.json",
+      "plane": "execution",
+      "request_id": "request-95fdc77c22bb46139890bafbe46fba0c",
+      "result_class": "success",
+      "run_id": "run-2fa46a0d3b6a44f6915ce4c8f3986f88",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-02-compiled-graph-exports"
+    },
+    {
+      "duration_seconds": 667.624135,
+      "path": "millrace-agents/runs/run-2fa46a0d3b6a44f6915ce4c8f3986f88/stage_results/request-fca8d92c86a34f4f9f45936ab2151c60.json",
+      "plane": "execution",
+      "request_id": "request-fca8d92c86a34f4f9f45936ab2151c60",
+      "result_class": "success",
+      "run_id": "run-2fa46a0d3b6a44f6915ce4c8f3986f88",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-02-compiled-graph-exports"
+    },
+    {
+      "duration_seconds": 467.972119,
+      "path": "millrace-agents/runs/run-30f996dfd5414a2898a9997a1052d6f0/stage_results/request-5b7a19015a8e4bd1baaf4cc609c61c42.json",
+      "plane": "planning",
+      "request_id": "request-5b7a19015a8e4bd1baaf4cc609c61c42",
+      "result_class": "success",
+      "run_id": "run-30f996dfd5414a2898a9997a1052d6f0",
+      "stage": "arbiter",
+      "terminal_result": "ARBITER_COMPLETE",
+      "work_item_id": "idea-auto-port-python-v0.17.4-to-v0.18.0-rust-0.3.0"
+    },
+    {
+      "duration_seconds": 269.450665,
+      "path": "millrace-agents/runs/run-3abe06f338a840e78ce543301fb4bfad/stage_results/request-2202d34286e5462392a6c2de8a1d22d7.json",
+      "plane": "execution",
+      "request_id": "request-2202d34286e5462392a6c2de8a1d22d7",
+      "result_class": "success",
+      "run_id": "run-3abe06f338a840e78ce543301fb4bfad",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 313.31656,
+      "path": "millrace-agents/runs/run-3abe06f338a840e78ce543301fb4bfad/stage_results/request-96dd000a51c9447fb0c4ebfe116b120d.json",
+      "plane": "execution",
+      "request_id": "request-96dd000a51c9447fb0c4ebfe116b120d",
+      "result_class": "success",
+      "run_id": "run-3abe06f338a840e78ce543301fb4bfad",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 962.367257,
+      "path": "millrace-agents/runs/run-3abe06f338a840e78ce543301fb4bfad/stage_results/request-a7dec1cef9084798af1cf9efca7830d3.json",
+      "plane": "execution",
+      "request_id": "request-a7dec1cef9084798af1cf9efca7830d3",
+      "result_class": "success",
+      "run_id": "run-3abe06f338a840e78ce543301fb4bfad",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-01-parity-harness-scout"
+    },
+    {
+      "duration_seconds": 159.396069,
+      "path": "millrace-agents/runs/run-9e0616e103204df7bd555620be060644/stage_results/request-4247b7c4966447d69cdb3e54e843c5c6.json",
+      "plane": "execution",
+      "request_id": "request-4247b7c4966447d69cdb3e54e843c5c6",
+      "result_class": "success",
+      "run_id": "run-9e0616e103204df7bd555620be060644",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-06-final-release-parity"
+    },
+    {
+      "duration_seconds": 701.366937,
+      "path": "millrace-agents/runs/run-9e0616e103204df7bd555620be060644/stage_results/request-77d95c1b069a44ad8f779c39b45d1d4d.json",
+      "plane": "execution",
+      "request_id": "request-77d95c1b069a44ad8f779c39b45d1d4d",
+      "result_class": "success",
+      "run_id": "run-9e0616e103204df7bd555620be060644",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-06-final-release-parity"
+    },
+    {
+      "duration_seconds": 528.410684,
+      "path": "millrace-agents/runs/run-9e0616e103204df7bd555620be060644/stage_results/request-a79b8c13238a4eed92a6631d8e159365.json",
+      "plane": "execution",
+      "request_id": "request-a79b8c13238a4eed92a6631d8e159365",
+      "result_class": "success",
+      "run_id": "run-9e0616e103204df7bd555620be060644",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-06-final-release-parity"
+    },
+    {
+      "duration_seconds": 684.74542,
+      "path": "millrace-agents/runs/run-a7144b0d1b1a43679f32be50ed5db57b/stage_results/request-31d242c69662490f9edff9a291e7a632.json",
+      "plane": "execution",
+      "request_id": "request-31d242c69662490f9edff9a291e7a632",
+      "result_class": "success",
+      "run_id": "run-a7144b0d1b1a43679f32be50ed5db57b",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-04-cli-graph-trace"
+    },
+    {
+      "duration_seconds": 265.274837,
+      "path": "millrace-agents/runs/run-a7144b0d1b1a43679f32be50ed5db57b/stage_results/request-4f2c3448cdd846aeae57f7f1e0125393.json",
+      "plane": "execution",
+      "request_id": "request-4f2c3448cdd846aeae57f7f1e0125393",
+      "result_class": "success",
+      "run_id": "run-a7144b0d1b1a43679f32be50ed5db57b",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-04-cli-graph-trace"
+    },
+    {
+      "duration_seconds": 362.516618,
+      "path": "millrace-agents/runs/run-a7144b0d1b1a43679f32be50ed5db57b/stage_results/request-5ea98c03ab7b4f36be4ce60d188788f9.json",
+      "plane": "execution",
+      "request_id": "request-5ea98c03ab7b4f36be4ce60d188788f9",
+      "result_class": "success",
+      "run_id": "run-a7144b0d1b1a43679f32be50ed5db57b",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-04-cli-graph-trace"
+    },
+    {
+      "duration_seconds": 873.669395,
+      "path": "millrace-agents/runs/run-bed58cbd5d27453db5762fb81d13dbe3/stage_results/request-5e5ce717b7144c3bacc4becc7c22722c.json",
+      "plane": "execution",
+      "request_id": "request-5e5ce717b7144c3bacc4becc7c22722c",
+      "result_class": "success",
+      "run_id": "run-bed58cbd5d27453db5762fb81d13dbe3",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-05-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 308.679761,
+      "path": "millrace-agents/runs/run-bed58cbd5d27453db5762fb81d13dbe3/stage_results/request-61a2a4b1f42f4acface0b2c20a00f470.json",
+      "plane": "execution",
+      "request_id": "request-61a2a4b1f42f4acface0b2c20a00f470",
+      "result_class": "success",
+      "run_id": "run-bed58cbd5d27453db5762fb81d13dbe3",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-05-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 126.387083,
+      "path": "millrace-agents/runs/run-bed58cbd5d27453db5762fb81d13dbe3/stage_results/request-8159e480c7bc4a1dac1e8fca16bd363c.json",
+      "plane": "execution",
+      "request_id": "request-8159e480c7bc4a1dac1e8fca16bd363c",
+      "result_class": "success",
+      "run_id": "run-bed58cbd5d27453db5762fb81d13dbe3",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-05-docs-version-web-gap"
+    },
+    {
+      "duration_seconds": 257.507029,
+      "path": "millrace-agents/runs/run-d7a44627804741ce869a0a99a7b66096/stage_results/request-393e6f6a30d349eaa234224961441da2.json",
+      "plane": "execution",
+      "request_id": "request-393e6f6a30d349eaa234224961441da2",
+      "result_class": "success",
+      "run_id": "run-d7a44627804741ce869a0a99a7b66096",
+      "stage": "checker",
+      "terminal_result": "CHECKER_PASS",
+      "work_item_id": "auto-port-0-18-0-03-run-trace-runtime"
+    },
+    {
+      "duration_seconds": 1065.216356,
+      "path": "millrace-agents/runs/run-d7a44627804741ce869a0a99a7b66096/stage_results/request-c57f404258a8426f9162e96642369f99.json",
+      "plane": "execution",
+      "request_id": "request-c57f404258a8426f9162e96642369f99",
+      "result_class": "success",
+      "run_id": "run-d7a44627804741ce869a0a99a7b66096",
+      "stage": "builder",
+      "terminal_result": "BUILDER_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-03-run-trace-runtime"
+    },
+    {
+      "duration_seconds": 399.706876,
+      "path": "millrace-agents/runs/run-d7a44627804741ce869a0a99a7b66096/stage_results/request-f9fa64205cae47a789906257533da803.json",
+      "plane": "execution",
+      "request_id": "request-f9fa64205cae47a789906257533da803",
+      "result_class": "success",
+      "run_id": "run-d7a44627804741ce869a0a99a7b66096",
+      "stage": "updater",
+      "terminal_result": "UPDATE_COMPLETE",
+      "work_item_id": "auto-port-0-18-0-03-run-trace-runtime"
+    }
+  ],
+  "summary": {
+    "first_started_at": "2026-05-05T11:16:26.688215+00:00",
+    "last_completed_at": "2026-05-05T13:47:35.585283+00:00",
+    "request_id_count": 19,
+    "run_count": 7,
+    "stage_result_count": 19,
+    "sum_stage_duration_hms": "2h 29m 45.6s",
+    "sum_stage_duration_seconds": 8985.627183,
+    "wall_hms": "2h 31m 8.9s",
+    "wall_seconds": 9068.897068,
+    "work_item_count": 7
+  },
+  "terminal_counts": {
+    "arbiter/ARBITER_COMPLETE": 1,
+    "builder/BUILDER_COMPLETE": 6,
+    "checker/CHECKER_PASS": 6,
+    "updater/UPDATE_COMPLETE": 6
+  },
+  "version": "v0.3.0",
+  "work_item_stage_counts": {
+    "auto-port-0-18-0-01-parity-harness-scout": 3,
+    "auto-port-0-18-0-02-compiled-graph-exports": 3,
+    "auto-port-0-18-0-03-run-trace-runtime": 3,
+    "auto-port-0-18-0-04-cli-graph-trace": 3,
+    "auto-port-0-18-0-05-docs-version-web-gap": 3,
+    "auto-port-0-18-0-06-final-release-parity": 3,
+    "idea-auto-port-python-v0.17.4-to-v0.18.0-rust-0.3.0": 1
+  }
+}

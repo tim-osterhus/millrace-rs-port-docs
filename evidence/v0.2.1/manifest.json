@@ -1,0 +1,618 @@
+{
+  "arbiter": {
+    "report_path": "millrace-agents/runs/run-6164cfceb6f24a1292757bf88c275331/arbiter_report.md",
+    "request_id": "request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4",
+    "result_class": "success",
+    "run_id": "run-6164cfceb6f24a1292757bf88c275331",
+    "terminal_result": "ARBITER_COMPLETE",
+    "verdict": "complete"
+  },
+  "bundle_file_count": 72,
+  "created_at": "2026-05-03T23:22:06.322712+00:00",
+  "excluded_file_classes": [
+    "raw runner prompts",
+    "raw runner stdout/stderr",
+    "runner event jsonl streams",
+    "runner completion/invocation payloads",
+    "process env dumps",
+    "daemon logs",
+    "pycache artifacts"
+  ],
+  "generated_files": [
+    {
+      "bytes": 930,
+      "path": "v0.2.1-port-evidence/README.md",
+      "sha256": "d4b0a8195ee451a066da1e17443085411f07de8bbe05b53e0a8fb5c7d997bb33"
+    },
+    {
+      "bytes": 9817,
+      "path": "v0.2.1-port-evidence/generated/metrics.json",
+      "sha256": "7c57a187949c977a776cad49fd95f409216174f2d16e3b54f633cf2ae19c72ca"
+    },
+    {
+      "bytes": 262,
+      "path": "v0.2.1-port-evidence/generated/run-summary.csv",
+      "sha256": "a52590966159a314454a971283db1ce75df474b5e6d17f2c621bc3ecdf87799e"
+    },
+    {
+      "bytes": 615,
+      "path": "v0.2.1-port-evidence/generated/sanitizer-review.json",
+      "sha256": "a6c847eda6ed28b832303480a8fdd62c4df0aeea4a26066a3d960fbef4907304"
+    },
+    {
+      "bytes": 102,
+      "path": "v0.2.1-port-evidence/generated/stage-summary.csv",
+      "sha256": "3e706814c696806965f3a3ecde5c88ed933ba1d37a1fbc22de74dcb157c191cc"
+    },
+    {
+      "bytes": 6191,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/auto-port/generated/auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "cbce58ad452132b653b526d3b83a39019b9bae7152c8504d84ebd15759953474"
+    },
+    {
+      "bytes": 32650,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/README.md",
+      "sha256": "e09cf6cdbd83b2bb680f37163c6b6c0d49a0ce0b54b7471db86c7b2f9e6ba6b9"
+    }
+  ],
+  "kind": "post_v0_1_0_port_evidence_manifest",
+  "metrics": {
+    "idea_id": "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1",
+    "python_from": "v0.17.3",
+    "python_to": "v0.17.4",
+    "result_class_counts": {
+      "success": 16
+    },
+    "run_stage_counts": {
+      "run-2376d907d6a7448dafac808452625283": 3,
+      "run-5ec6d3b1bf5e4204abf907d638bffc37": 3,
+      "run-5fec7e3f12ba4d0f8903d9f0db3e490f": 3,
+      "run-6164cfceb6f24a1292757bf88c275331": 1,
+      "run-b6a85614e6184e179d4d9632def37d47": 3,
+      "run-cbbf145a108d449ba84612403081a5e6": 3
+    },
+    "source": "millrace-rs",
+    "stage_counts": {
+      "execution/builder": 5,
+      "execution/checker": 5,
+      "execution/updater": 5,
+      "planning/arbiter": 1
+    },
+    "stage_results": [
+      {
+        "duration_seconds": 1978.86315,
+        "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-4873e669e8164de69e499623b395110a.json",
+        "plane": "execution",
+        "request_id": "request-4873e669e8164de69e499623b395110a",
+        "result_class": "success",
+        "run_id": "run-2376d907d6a7448dafac808452625283",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+      },
+      {
+        "duration_seconds": 352.202645,
+        "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-ba944bfce36b47f397dcafd2237f29a4.json",
+        "plane": "execution",
+        "request_id": "request-ba944bfce36b47f397dcafd2237f29a4",
+        "result_class": "success",
+        "run_id": "run-2376d907d6a7448dafac808452625283",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+      },
+      {
+        "duration_seconds": 352.651327,
+        "path": "millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-e4dccce044614d0f9b44c48298d5eb5d.json",
+        "plane": "execution",
+        "request_id": "request-e4dccce044614d0f9b44c48298d5eb5d",
+        "result_class": "success",
+        "run_id": "run-2376d907d6a7448dafac808452625283",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-02-learning-assets-compiler-triggers"
+      },
+      {
+        "duration_seconds": 543.908634,
+        "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-178f4d07f2124f8a927d049d2486903b.json",
+        "plane": "execution",
+        "request_id": "request-178f4d07f2124f8a927d049d2486903b",
+        "result_class": "success",
+        "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+      },
+      {
+        "duration_seconds": 301.250823,
+        "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-62ecc47e1a7f497a8873751787e00f53.json",
+        "plane": "execution",
+        "request_id": "request-62ecc47e1a7f497a8873751787e00f53",
+        "result_class": "success",
+        "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+      },
+      {
+        "duration_seconds": 254.902366,
+        "path": "millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-f81784aea66449868266144df8bfbcea.json",
+        "plane": "execution",
+        "request_id": "request-f81784aea66449868266144df8bfbcea",
+        "result_class": "success",
+        "run_id": "run-5ec6d3b1bf5e4204abf907d638bffc37",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-17-4-01-noop-contracts-stage-metadata"
+      },
+      {
+        "duration_seconds": 232.190997,
+        "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-6b4da13dddb04c6d8cbc6380f2bcc8f3.json",
+        "plane": "execution",
+        "request_id": "request-6b4da13dddb04c6d8cbc6380f2bcc8f3",
+        "result_class": "success",
+        "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+      },
+      {
+        "duration_seconds": 239.312451,
+        "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-9184b8d2c5914661a2c17cbbd89b1a3f.json",
+        "plane": "execution",
+        "request_id": "request-9184b8d2c5914661a2c17cbbd89b1a3f",
+        "result_class": "success",
+        "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+      },
+      {
+        "duration_seconds": 1089.703378,
+        "path": "millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-bda1a6d1ca0e4d6c9f12f0b947796ea6.json",
+        "plane": "execution",
+        "request_id": "request-bda1a6d1ca0e4d6c9f12f0b947796ea6",
+        "result_class": "success",
+        "run_id": "run-5fec7e3f12ba4d0f8903d9f0db3e490f",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-03-runtime-learning-noop-lifecycle"
+      },
+      {
+        "duration_seconds": 444.793377,
+        "path": "millrace-agents/runs/run-6164cfceb6f24a1292757bf88c275331/stage_results/request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4.json",
+        "plane": "planning",
+        "request_id": "request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4",
+        "result_class": "success",
+        "run_id": "run-6164cfceb6f24a1292757bf88c275331",
+        "stage": "arbiter",
+        "terminal_result": "ARBITER_COMPLETE",
+        "work_item_id": "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1"
+      },
+      {
+        "duration_seconds": 176.419765,
+        "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-72132668e5844b5986a8abf2b2119c2a.json",
+        "plane": "execution",
+        "request_id": "request-72132668e5844b5986a8abf2b2119c2a",
+        "result_class": "success",
+        "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+      },
+      {
+        "duration_seconds": 511.072621,
+        "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-7c072dfc3ea749beb8d82a75ad281b0c.json",
+        "plane": "execution",
+        "request_id": "request-7c072dfc3ea749beb8d82a75ad281b0c",
+        "result_class": "success",
+        "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+      },
+      {
+        "duration_seconds": 1265.990622,
+        "path": "millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-890b994fc52c4f87802118df35eb9efc.json",
+        "plane": "execution",
+        "request_id": "request-890b994fc52c4f87802118df35eb9efc",
+        "result_class": "success",
+        "run_id": "run-b6a85614e6184e179d4d9632def37d47",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-05-version-docs-release-evidence"
+      },
+      {
+        "duration_seconds": 214.000423,
+        "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-29edfdd694014795b953d3409e9c6f15.json",
+        "plane": "execution",
+        "request_id": "request-29edfdd694014795b953d3409e9c6f15",
+        "result_class": "success",
+        "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+      },
+      {
+        "duration_seconds": 292.686708,
+        "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-7651a9e27a6946dca555160ee4ff934a.json",
+        "plane": "execution",
+        "request_id": "request-7651a9e27a6946dca555160ee4ff934a",
+        "result_class": "success",
+        "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+      },
+      {
+        "duration_seconds": 880.405458,
+        "path": "millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-861d9a0507a84110a9e7436b50fd5ac7.json",
+        "plane": "execution",
+        "request_id": "request-861d9a0507a84110a9e7436b50fd5ac7",
+        "result_class": "success",
+        "run_id": "run-cbbf145a108d449ba84612403081a5e6",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-17-4-04-parity-fixtures-tests"
+      }
+    ],
+    "summary": {
+      "first_started_at": "2026-05-03T20:48:52.643437+00:00",
+      "last_completed_at": "2026-05-03T23:22:06.322712+00:00",
+      "request_id_count": 16,
+      "run_count": 6,
+      "stage_result_count": 16,
+      "sum_stage_duration_hms": "2h 32m 10.4s",
+      "sum_stage_duration_seconds": 9130.354745,
+      "wall_hms": "2h 33m 13.7s",
+      "wall_seconds": 9193.679275,
+      "work_item_count": 6
+    },
+    "terminal_counts": {
+      "arbiter/ARBITER_COMPLETE": 1,
+      "builder/BUILDER_COMPLETE": 5,
+      "checker/CHECKER_PASS": 5,
+      "updater/UPDATE_COMPLETE": 5
+    },
+    "version": "v0.2.1",
+    "work_item_stage_counts": {
+      "auto-port-0-17-4-01-noop-contracts-stage-metadata": 3,
+      "auto-port-0-17-4-02-learning-assets-compiler-triggers": 3,
+      "auto-port-0-17-4-03-runtime-learning-noop-lifecycle": 3,
+      "auto-port-0-17-4-04-parity-fixtures-tests": 3,
+      "auto-port-0-17-4-05-version-docs-release-evidence": 3,
+      "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1": 1
+    }
+  },
+  "release": {
+    "idea_id": "idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1",
+    "python_commit": "304e537964ff772c815689b87e4c1e3b805c656c",
+    "python_from": "v0.17.3",
+    "python_to": "v0.17.4",
+    "rust_tag": "v0.2.1",
+    "rust_version": "0.2.1"
+  },
+  "schema_version": "1.0",
+  "source_files": [
+    {
+      "bytes": 7326,
+      "path": "v0.2.1-port-evidence/millrace-rs/CHANGELOG.md",
+      "sha256": "b8182fcaef2cf373a9c9c9e2e2565a004ba0e57d7a3ea7539a28b6b9744d42b4"
+    },
+    {
+      "bytes": 3397,
+      "path": "v0.2.1-port-evidence/millrace-rs/ROADMAP.md",
+      "sha256": "c8677e45fbe56485af3db3ab30e30f71736ada893c58bd76e8eeea3e4a9ad0e2"
+    },
+    {
+      "bytes": 5859,
+      "path": "v0.2.1-port-evidence/millrace-rs/docs/rust-port-roadmap.md",
+      "sha256": "4d73e41d7c68232d8e1979f8a5add32639f65bfc2b8a5e069bdc117d4327a5c9"
+    },
+    {
+      "bytes": 3685,
+      "path": "v0.2.1-port-evidence/millrace-rs/docs/source-package-map.md",
+      "sha256": "0897380c4f27ce5d592384725c3a80419e36cd61ef0ffd03f3bdfd607a298db0"
+    },
+    {
+      "bytes": 3031,
+      "path": "v0.2.1-port-evidence/millrace-rs/docs/testing.md",
+      "sha256": "1a1e16386214cd195cfc58d179c4f8a2df2498aae916635f45de6f1695ae0caf"
+    },
+    {
+      "bytes": 6191,
+      "path": "v0.2.1-port-evidence/millrace-rs/ideas/inbox/auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "cbce58ad452132b653b526d3b83a39019b9bae7152c8504d84ebd15759953474"
+    },
+    {
+      "bytes": 6191,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/contracts/ideas/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "cbce58ad452132b653b526d3b83a39019b9bae7152c8504d84ebd15759953474"
+    },
+    {
+      "bytes": 785,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/contracts/root-specs/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "e6dfe4432672b0a1466d5b10f87f25751b08fe0314ed033fc8e79ef74ce148f2"
+    },
+    {
+      "bytes": 6392,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/reports/run-6164cfceb6f24a1292757bf88c275331.md",
+      "sha256": "3e84fa29a4b391aeb391bf3ddf10d61d57e15ab2a57a0413393ce52395193da2"
+    },
+    {
+      "bytes": 4015,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/rubrics/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "ea96e3e8c5bdd6e04e4cceff8bf63d3664c04ece6cd226caf5bd1b3e29c48ac4"
+    },
+    {
+      "bytes": 1028,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/targets/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.json",
+      "sha256": "dad33021cbbb83d76a98305b37a8eeb3914e6e57822a741342b2ce1edf9a0f38"
+    },
+    {
+      "bytes": 6301,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/arbiter/verdicts/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.json",
+      "sha256": "e6a5cc8551cfb41f4f3a0a17204ca329283f67b9081894666b04b1d1cd23b306"
+    },
+    {
+      "bytes": 2711,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/builder_summary.md",
+      "sha256": "3bd28a53972bf36b7f6e7b124861079376eb249eff86cef1bfe8bb995f8702a9"
+    },
+    {
+      "bytes": 3197,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/checker_expectations.md",
+      "sha256": "f5faad4d8c5249972ab6ef6fda5af8f47bae235f4e4c3952ec4d3d990b7c59cf"
+    },
+    {
+      "bytes": 2158,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/checker_summary.md",
+      "sha256": "3a9618674ff7a8abb5c70baa67e6df2bd036b3e8089c44ef50b5af4bdb677c20"
+    },
+    {
+      "bytes": 2264,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-4873e669e8164de69e499623b395110a.json",
+      "sha256": "6768ac14100bf8827a7b41aab133a3198a1ef286121d955ad3652a2862cecbd0"
+    },
+    {
+      "bytes": 2252,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-ba944bfce36b47f397dcafd2237f29a4.json",
+      "sha256": "e5d252b0d039ceeb0832dde43ddbe041613904837ce1ebff90bad01272e81ed7"
+    },
+    {
+      "bytes": 2261,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/stage_results/request-e4dccce044614d0f9b44c48298d5eb5d.json",
+      "sha256": "a08f25c809cbc91b43e770aa3c0451c672f9843e886c03d5a6b691dd1f34274a"
+    },
+    {
+      "bytes": 1702,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-2376d907d6a7448dafac808452625283/updater_summary.md",
+      "sha256": "29f102d1b2087d2e6749939870a50baa3031dfc7958c74447cf3f874b034a690"
+    },
+    {
+      "bytes": 2863,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/builder_summary.md",
+      "sha256": "191ae49c69184b7d39a92c120517e29b186a483f9c4c6677b0594250d9853ec8"
+    },
+    {
+      "bytes": 2174,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/checker_expectations.md",
+      "sha256": "2ef5acaa6a2476a5410327519d2001ea809d3abd52b618c583f1748d76887408"
+    },
+    {
+      "bytes": 2624,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/checker_summary.md",
+      "sha256": "39b5aabbbf05d7747f730ccc218e60db5bd2da4848981227c550e11a6764ee1b"
+    },
+    {
+      "bytes": 2260,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-178f4d07f2124f8a927d049d2486903b.json",
+      "sha256": "c0bd11b25faf639912cb4da97c378ae67ca6e4be152c96d4e7ae9004cbbfc072"
+    },
+    {
+      "bytes": 2257,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-62ecc47e1a7f497a8873751787e00f53.json",
+      "sha256": "5c9b20d64e107c6706084beb120a0a641a8ee7d94524e6d61ec3acbb504dc1f2"
+    },
+    {
+      "bytes": 2248,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/stage_results/request-f81784aea66449868266144df8bfbcea.json",
+      "sha256": "e8de73c1099a5d89b279299e2a6962f53c4c0ae12b5a972c872da69fa8bf6ce3"
+    },
+    {
+      "bytes": 1670,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5ec6d3b1bf5e4204abf907d638bffc37/updater_summary.md",
+      "sha256": "2a7aae8587503e8157196ad1d376995a1fe9dcb9074b8b71ccd486b021ca7b07"
+    },
+    {
+      "bytes": 2209,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/builder_summary.md",
+      "sha256": "255cb00d513bd549648b984bd6a13e8f0516250382c2eb750473a76d55683ffb"
+    },
+    {
+      "bytes": 2892,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/checker_expectations.md",
+      "sha256": "c0e2d1de62b78c89a2879b581ff2507950208da97df7a6af840b042f9de6a05e"
+    },
+    {
+      "bytes": 1724,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/checker_summary.md",
+      "sha256": "b5ade24511d0c2cc173d0463a75f3ce28da87a33b1a44925b82610f841e1f1b8"
+    },
+    {
+      "bytes": 2259,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-6b4da13dddb04c6d8cbc6380f2bcc8f3.json",
+      "sha256": "e62495945cafc4d872addd36d88f830cfeccd8724769f8402959e9ed6a3ebedf"
+    },
+    {
+      "bytes": 2250,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-9184b8d2c5914661a2c17cbbd89b1a3f.json",
+      "sha256": "1160c5a33f2e8a21263b59e055d80d0b4c4eba1c0095d52e7546bb32e2838526"
+    },
+    {
+      "bytes": 2263,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/stage_results/request-bda1a6d1ca0e4d6c9f12f0b947796ea6.json",
+      "sha256": "15ede21716f772fb6931845ab2a3afc9f35e1e926486ce258cafb33ac94062c0"
+    },
+    {
+      "bytes": 1746,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-5fec7e3f12ba4d0f8903d9f0db3e490f/updater_summary.md",
+      "sha256": "bd90ef8cffeeaf53ae59f6c03da137fb37416cdae82407ef973e44c4d98e53d2"
+    },
+    {
+      "bytes": 6392,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-6164cfceb6f24a1292757bf88c275331/arbiter_report.md",
+      "sha256": "3e84fa29a4b391aeb391bf3ddf10d61d57e15ab2a57a0413393ce52395193da2"
+    },
+    {
+      "bytes": 2813,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-6164cfceb6f24a1292757bf88c275331/stage_results/request-8378c1acc2c54e7ebf2c5ff2d0c4c5d4.json",
+      "sha256": "60d1b5150cadc61406a14d11b28e49d94e55599896febcf230de902f340d19e0"
+    },
+    {
+      "bytes": 3428,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/builder_summary.md",
+      "sha256": "a19d829366a59413448e99f341814ae1dc1011cd801e31a3b7d7feabc426f5b2"
+    },
+    {
+      "bytes": 3396,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/checker_expectations.md",
+      "sha256": "c0a56cc662df33545a3216c7de4df9b0f998c63a5a75941072e2a95d5f38cd23"
+    },
+    {
+      "bytes": 3351,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/checker_summary.md",
+      "sha256": "02a247b7461d30d430a7a5f0ced0253f0330b95ccf8ffadcea6bab652b2a6256"
+    },
+    {
+      "bytes": 2257,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-72132668e5844b5986a8abf2b2119c2a.json",
+      "sha256": "1e245edb97179551e09b100252fbc69e2a714ea7a6b63f45ec9b4f91aed2439c"
+    },
+    {
+      "bytes": 2248,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-7c072dfc3ea749beb8d82a75ad281b0c.json",
+      "sha256": "75326bef7c7358161630a1c714ed33e8b5ff2f329d70e72260211cfad2e72371"
+    },
+    {
+      "bytes": 2261,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/stage_results/request-890b994fc52c4f87802118df35eb9efc.json",
+      "sha256": "8f30385043a7e540a415470845c0e8a498be6f48a890cff09be6b97cfb6aec1c"
+    },
+    {
+      "bytes": 1672,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-b6a85614e6184e179d4d9632def37d47/updater_summary.md",
+      "sha256": "363dee9592737485afb1eaf02ef7433de0cba3810c9517e8ac0cf5aa752a72c4"
+    },
+    {
+      "bytes": 3695,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/builder_summary.md",
+      "sha256": "f6c9a4c3555d69730a5dbaf276a6d5627e44d696fe2096bd5abaacea193b2dad"
+    },
+    {
+      "bytes": 3513,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/checker_expectations.md",
+      "sha256": "fd9a7fab9fa2b05f0c7b88185136ea44059cae6359b809bdd51bcdc52c51d0a8"
+    },
+    {
+      "bytes": 2227,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/checker_summary.md",
+      "sha256": "07954f50994243fa2c5f662374da2c31ff44337723026838a0cc29b81b438dcb"
+    },
+    {
+      "bytes": 2249,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-29edfdd694014795b953d3409e9c6f15.json",
+      "sha256": "bc303a213d49a1d61243aa9d3f460a53ef09bbc4434706f03d77f6094552f24c"
+    },
+    {
+      "bytes": 2240,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-7651a9e27a6946dca555160ee4ff934a.json",
+      "sha256": "526694e39a915b9cb91ec34a2df8edcdde54349d5b05785598c617e39ba5a7b1"
+    },
+    {
+      "bytes": 2252,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/stage_results/request-861d9a0507a84110a9e7436b50fd5ac7.json",
+      "sha256": "799f9e328f44164acba66e32e346d36bb72a8713c9768bdef1207d8e4b7b712d"
+    },
+    {
+      "bytes": 1965,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/runs/run-cbbf145a108d449ba84612403081a5e6/updater_summary.md",
+      "sha256": "2bb5d9f730eccd9d6a9dc6cb92152bd3b38a6dd750e82b657b261fad13324c51"
+    },
+    {
+      "bytes": 16383,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/specs/done/idea-auto-port-python-v0.17.3-to-v0.17.4-rust-0.2.1.md",
+      "sha256": "8688eaa44951e81234db0ab0a8edbad565d7b83c09f3d2c27abb2b409b8a61e5"
+    },
+    {
+      "bytes": 2885,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-17-4-01-noop-contracts-stage-metadata.md",
+      "sha256": "81b4e27fae694d9d17a8b36c323070e3b7ac968099f8dca3e3829c37023bc27e"
+    },
+    {
+      "bytes": 4594,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-17-4-02-learning-assets-compiler-triggers.md",
+      "sha256": "619f0a16537df06e2f7ad86c790b5dac7f353dbf4a9e2dbb85bfc322b9bcc8b3"
+    },
+    {
+      "bytes": 3110,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-17-4-03-runtime-learning-noop-lifecycle.md",
+      "sha256": "090ae95f2bb6ba9a79502b4926177513b019ef586bf45be9c90924a046466e4a"
+    },
+    {
+      "bytes": 3580,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-17-4-04-parity-fixtures-tests.md",
+      "sha256": "0d5ee4ef44a63855820d44842f0f51306bd4ad141f0884b09736bb3884258427"
+    },
+    {
+      "bytes": 3124,
+      "path": "v0.2.1-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-17-4-05-version-docs-release-evidence.md",
+      "sha256": "042f03b69812c31aecdc8cf8ac6b0e1405067c713b165f731ede7d14d4a2008d"
+    },
+    {
+      "bytes": 11338,
+      "path": "v0.2.1-port-evidence/millrace-rs/tests/fixtures/cli_parity/auto_port_v0_17_4_parity_evidence.json",
+      "sha256": "bd629aa26d8f5f1fba740a1d2b2b403fa0b61dc651a4ddc685eb3f0d94d2d23f"
+    },
+    {
+      "bytes": 7811,
+      "path": "v0.2.1-port-evidence/millrace-rs/tests/fixtures/cli_parity/auto_port_v0_17_4_release_parity_evidence.json",
+      "sha256": "5165a7f9d0eba791e9b8587e12f512050749118466a05fb42f3df9b54c0b3b5f"
+    },
+    {
+      "bytes": 2700,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/CHANGELOG.md",
+      "sha256": "f7a5218dda46f20da4b66bc345ef1c09b72c77a35a1529db446394c6ebc94364"
+    },
+    {
+      "bytes": 19378,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/Cargo.lock",
+      "sha256": "144509d7488f6f76546bc4e29838d7a68e1bc08ba46f2172030579764e77bcf9"
+    },
+    {
+      "bytes": 1042,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/Cargo.toml",
+      "sha256": "327e657c5f8804b9f609a3068081a8c5a812e49618efa9ef9f188774ce8854a2"
+    },
+    {
+      "bytes": 2489,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/ROADMAP.md",
+      "sha256": "2f6bc52e3cabadcb6c75873339f09c38d016942a2c122ada7f94b2cb0df5eecd"
+    },
+    {
+      "bytes": 4041,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/docs/rust-port-roadmap.md",
+      "sha256": "583d7e5ea5293bdf8ff6b8d9650754d72a4b57cd543af2f55be046125da12ce9"
+    },
+    {
+      "bytes": 2766,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/docs/source-package-map.md",
+      "sha256": "af5f65ff90a4b55b1888e29a31acb5455fc94268437f9a59a82ccdbe13c8e53a"
+    },
+    {
+      "bytes": 1408,
+      "path": "v0.2.1-port-evidence/release-tag/v0.2.1/docs/testing.md",
+      "sha256": "b4f74bc916ecb20473534e92102e33a7a5ade5e9362bf57cd2bc5bdb73ba105a"
+    }
+  ]
+}
