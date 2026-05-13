@@ -1,0 +1,24 @@
+{
+  "blocked_file_classes": [
+    "raw runner prompts",
+    "raw runner stdout/stderr",
+    "runner event jsonl streams",
+    "runner completion/invocation payloads",
+    "process env dumps",
+    "daemon logs",
+    "pycache artifacts"
+  ],
+  "issue_count": 0,
+  "issues": [],
+  "kind": "blogger_sanitizer_review",
+  "redaction_rules": [
+    "workspace absolute roots",
+    "Windows user homes",
+    "Linux user homes and Millrace Python venv path",
+    "cookie and authorization headers",
+    "bearer tokens",
+    "token-like query parameters and secret assignments"
+  ],
+  "release": "v0.3.5",
+  "schema_version": "1.0"
+}
