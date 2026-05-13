@@ -35,6 +35,7 @@ metrics, verification scripts, redaction policy, and reader-facing summaries.
 | Initial Rust port | Publicly evidenced | [`docs/01-initial-rust-port-v0.1.0.md`](docs/01-initial-rust-port-v0.1.0.md) |
 | Published Rust crate efficacy smoke | Publicly evidenced smoke | [`docs/rust-efficacy-run.md`](docs/rust-efficacy-run.md) |
 | Post-`v0.1.0` autonomous maintenance loop | Strongest public claim | [`docs/02-autonomous-maintenance-loop-v0.2.0-v0.3.2.md`](docs/02-autonomous-maintenance-loop-v0.2.0-v0.3.2.md) |
+| Runtime recovery after external abort | Public operational evidence | [`docs/04-runtime-recovery-after-openclaw-abort.md`](docs/04-runtime-recovery-after-openclaw-abort.md) |
 | Downstream Millracer port | Separate downstream evidence repo | [`docs/03-downstream-millracer-rs-port.md`](docs/03-downstream-millracer-rs-port.md) |
 
 ## Headline v0.1.0 Metrics
@@ -107,6 +108,9 @@ python3 scripts/verify_v0_1_0_evidence.py \
 - [`docs/limitations.md`](docs/limitations.md): residual caveats.
 - [`docs/public-reader-guide.md`](docs/public-reader-guide.md): orientation for
   readers new to Millrace.
+- [`docs/04-runtime-recovery-after-openclaw-abort.md`](docs/04-runtime-recovery-after-openclaw-abort.md):
+  an observed recovery event where the live auto-port daemon resumed after an
+  external process-tree abort.
 - [`docs/rust-port-roadmap.md`](docs/rust-port-roadmap.md): the original parity
   plan.
 - [`docs/seeded-ideas/`](docs/seeded-ideas/): the eight large work slices fed

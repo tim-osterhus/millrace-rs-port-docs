@@ -90,6 +90,25 @@ Across these releases, the Rust crate kept the web dashboard and native watcher
 surfaces as explicit known gaps where the Rust project intentionally remained a
 CLI/runtime crate rather than a full Python package mirror.
 
+## Runtime Recovery Event
+
+During the later `v0.3.5` maintenance run, an external OpenClaw operator action
+aborted the auto-port process tree while Millrace had both execution and
+learning work active. The runtime snapshot preserved the active release idea,
+the interrupted execution task, the interrupted learning request, queue state,
+and the open Arbiter closure target.
+
+The recovery command cleared the stale daemon ownership lock and requeued two
+interrupted active items. After the daemon and supervisor restarted, Millrace
+resumed the same `v0.18.4 -> v0.18.6` / Rust `0.3.5` auto-port run under fresh
+run IDs. The release gate continued to block deploy until the normal
+conditions were satisfied: Rust version match, empty queues, no active runs, and
+closed Arbiter target.
+
+See
+[`04-runtime-recovery-after-openclaw-abort.md`](04-runtime-recovery-after-openclaw-abort.md)
+for the operational recovery record.
+
 ## Second Harness: Millracer
 
 The same auto-port pattern has also been adapted for a second project:
