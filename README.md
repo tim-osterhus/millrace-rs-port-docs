@@ -71,7 +71,9 @@ published as release assets and may also exist locally under `dist/`.
 | `v0.3.0` | `v0.17.4 -> v0.18.0` | [`evidence/v0.3.0/`](evidence/v0.3.0/) | `286aabfd4c476de458ba53d661368e6471fa7ca0c4f21ba2fef13fcef4e25123` |
 | `v0.3.1` | `v0.18.0 -> v0.18.1` | [`evidence/v0.3.1/`](evidence/v0.3.1/) | `3f7940f6c4df5a37d3f280d1942da8da844e93cf6d2cdc67a78c999c82d8522e` |
 | `v0.3.2` | `v0.18.1 -> v0.18.2` | [`evidence/v0.3.2/`](evidence/v0.3.2/) | `2c9dc315483ea8e911c1011b9b989d8d9c1324e731a1ca1e97bbed1f7f1e0987` |
-
+| `v0.3.4` | `v0.18.3 -> v0.18.4` | [`evidence/v0.3.4/`](evidence/v0.3.4/) | `6d1e55511696b16349e9e16732069751c11f5a2b4079ed5557b01bd18563c6b3` |
+| `v0.3.5` | `v0.18.4 -> v0.18.6` | [`evidence/v0.3.5/`](evidence/v0.3.5/) | `19b91453d2db72bae2ba48d473ae93a9323804262b6f8d483e5bef92828bfc8c` |
+| `v0.4.0` | `v0.18.6 -> v0.19.0` | [`evidence/v0.4.0/`](evidence/v0.4.0/) | `2baca79899161030ce771cb503f4eb12d0763519472c0c7b5bdab900bf5a7b77` |
 Verify one of these bundles with:
 
 ```bash
