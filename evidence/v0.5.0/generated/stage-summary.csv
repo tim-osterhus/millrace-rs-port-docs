@@ -1,0 +1,9 @@
+plane,stage,calls
+execution,builder,10
+execution,checker,10
+execution,doublechecker,3
+execution,fixer,3
+execution,updater,10
+planning,arbiter,1
+planning,manager,1
+planning,planner,1
