@@ -74,8 +74,8 @@ published as release assets and may also exist locally under `dist/`.
 | `v0.3.4` | `v0.18.3 -> v0.18.4` | [`evidence/v0.3.4/`](evidence/v0.3.4/) | `6d1e55511696b16349e9e16732069751c11f5a2b4079ed5557b01bd18563c6b3` |
 | `v0.3.5` | `v0.18.4 -> v0.18.6` | [`evidence/v0.3.5/`](evidence/v0.3.5/) | `19b91453d2db72bae2ba48d473ae93a9323804262b6f8d483e5bef92828bfc8c` |
 | `v0.4.0` | `v0.18.6 -> v0.19.0` | [`evidence/v0.4.0/`](evidence/v0.4.0/) | `2baca79899161030ce771cb503f4eb12d0763519472c0c7b5bdab900bf5a7b77` |
-| `v0.5.0` | `v0.19.0 -> v0.20.0` | [`evidence/v0.5.0/`](evidence/v0.5.0/) | `518077224e96fa020183271ee19403a470d2f10dbbab9087e640cf398793c844` |Verify one of these bundles with:
-
+| `v0.5.0` | `v0.19.0 -> v0.20.0` | [`evidence/v0.5.0/`](evidence/v0.5.0/) | `518077224e96fa020183271ee19403a470d2f10dbbab9087e640cf398793c844` |
+| `v0.5.1` | `v0.20.0 -> v0.20.1` | [`evidence/v0.5.1/`](evidence/v0.5.1/) | `b9e800d2fd3cb9ea6d1ceff14f4318d992627ccae740b99d5555ebd734110bb2` |
 ```bash
 python3 scripts/verify_post_v0_1_0_evidence.py \
   --bundle dist/v0.3.2-port-evidence.tar.gz \
