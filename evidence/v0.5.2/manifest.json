@@ -1,0 +1,1423 @@
+{
+  "arbiter": {
+    "report_path": "millrace-agents/runs/run-77d98d2aaa7443aa97432ec90fe589d4/arbiter_report.md",
+    "request_id": "request-2894e0b45a614e1b8990e5b87f9619e0",
+    "result_class": "success",
+    "run_id": "run-77d98d2aaa7443aa97432ec90fe589d4",
+    "terminal_result": "ARBITER_COMPLETE",
+    "verdict": "complete"
+  },
+  "bundle_file_count": 146,
+  "created_at": "2026-05-30T19:37:40.751955+00:00",
+  "excluded_file_classes": [
+    "raw runner prompts",
+    "raw runner stdout/stderr",
+    "runner event jsonl streams",
+    "runner completion/invocation payloads",
+    "process env dumps",
+    "daemon logs",
+    "pycache artifacts"
+  ],
+  "generated_files": [
+    {
+      "bytes": 923,
+      "path": "v0.5.2-port-evidence/README.md",
+      "sha256": "1c736d0e18b4161ba0cea2240bce04a5ef54f3f94f037472de2af276de7e51df"
+    },
+    {
+      "bytes": 793,
+      "path": "v0.5.2-port-evidence/generated/auto-port-state.json",
+      "sha256": "9cc81968a6a7968ba5693710a59c9683b3576b8e305e21d0692719eb90234920"
+    },
+    {
+      "bytes": 30068,
+      "path": "v0.5.2-port-evidence/generated/metrics.json",
+      "sha256": "b51b87b4b99ef9d38fb1d4c0e05fbdc5acfeb0f3054cef7d7e804ee8ef553e92"
+    },
+    {
+      "bytes": 622,
+      "path": "v0.5.2-port-evidence/generated/run-summary.csv",
+      "sha256": "99ea1362995eb420879c036a9c68c98f59e4f6772d0afb95189771614a80b887"
+    },
+    {
+      "bytes": 623,
+      "path": "v0.5.2-port-evidence/generated/sanitizer-review.json",
+      "sha256": "cade76a4a291d3470493d497c251fec9e227ef5abf4255c2b440e090011e074e"
+    },
+    {
+      "bytes": 262,
+      "path": "v0.5.2-port-evidence/generated/stage-summary.csv",
+      "sha256": "6fc000dc544407dec9dfde38e98dc9dc8203793ac05940f3970366f13041e7f6"
+    },
+    {
+      "bytes": 77888,
+      "path": "v0.5.2-port-evidence/millrace-rs/README.md",
+      "sha256": "b506e8ef8d88cb42fc3ca5564380e8feec717a168fc14d4aa822625da28e852c"
+    },
+    {
+      "bytes": 35704,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/auto-port/generated/auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "ae62d09234b3dfb40663dbbbfb035b6a897151c806ba83680ee37983f1f1be8d"
+    },
+    {
+      "bytes": 77867,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/README.md",
+      "sha256": "2255d95d2e68098f358efcc9e55aa94eb9928d5112bbc8f59bd1165726a1738f"
+    }
+  ],
+  "kind": "blogger_port_evidence_manifest",
+  "metrics": {
+    "idea_id": "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2",
+    "python_commit": "c607c0c12ee91c5982f2808481ee5b818de12da9",
+    "python_from": "v0.20.1",
+    "python_to": "v0.20.3",
+    "result_class_counts": {
+      "blocked": 4,
+      "escalate_planning": 1,
+      "followup_needed": 6,
+      "success": 41
+    },
+    "run_stage_counts": {
+      "run-21715010a31f48038c7193908d20392f": 3,
+      "run-33b29e26de2a49d0a642399d726ceec7": 6,
+      "run-6240a5c5fd2a48cc84467fb611148238": 3,
+      "run-709bc5fa01ff4b1f8299050b8ad54fe8": 5,
+      "run-77d98d2aaa7443aa97432ec90fe589d4": 1,
+      "run-89769f067892485fb74f38a8e47e80bd": 5,
+      "run-89d163b670df4f459f8769fb9fa9352f": 3,
+      "run-8cf50133e9cc44ca8084cbc7c9bb2ff2": 5,
+      "run-9a02e1e948ac4bd885ecd598bb5ae651": 3,
+      "run-9b0637aab3ce46b0b41934edd448dbe3": 3,
+      "run-add69d1e68824903875f5a49b0f89a89": 5,
+      "run-bbd027a50d7f41dea60076da1c2f80c6": 2,
+      "run-bddf4d78bf214d50b0b42a0d27d3be6f": 3,
+      "run-f26739ab046842bfbbb4cfae527b584b": 3,
+      "run-fab5d0cd5e6c40e78291f4838c8eddd4": 2
+    },
+    "source": "millrace-rs",
+    "stage_counts": {
+      "execution/builder": 10,
+      "execution/checker": 10,
+      "execution/consultant": 1,
+      "execution/doublechecker": 5,
+      "execution/fixer": 5,
+      "execution/troubleshooter": 4,
+      "execution/updater": 9,
+      "planning/arbiter": 1,
+      "planning/auditor": 1,
+      "planning/manager": 3,
+      "planning/planner": 3
+    },
+    "stage_results": [
+      {
+        "duration_seconds": 2603.572002,
+        "path": "millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-02b13b11d16449a593a1b54ef7d26a43.json",
+        "plane": "execution",
+        "request_id": "request-02b13b11d16449a593a1b54ef7d26a43",
+        "result_class": "success",
+        "run_id": "run-21715010a31f48038c7193908d20392f",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-03-model-aliases-efficient-mode"
+      },
+      {
+        "duration_seconds": 511.115891,
+        "path": "millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-91780118230946d9911ea83c346a5956.json",
+        "plane": "execution",
+        "request_id": "request-91780118230946d9911ea83c346a5956",
+        "result_class": "success",
+        "run_id": "run-21715010a31f48038c7193908d20392f",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-03-model-aliases-efficient-mode"
+      },
+      {
+        "duration_seconds": 536.571439,
+        "path": "millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-e4020d6c3c4a492f93228f51c702731f.json",
+        "plane": "execution",
+        "request_id": "request-e4020d6c3c4a492f93228f51c702731f",
+        "result_class": "success",
+        "run_id": "run-21715010a31f48038c7193908d20392f",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-03-model-aliases-efficient-mode"
+      },
+      {
+        "duration_seconds": 191.299075,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-04c16bb9bcb04d15821215a2b91f647a.json",
+        "plane": "execution",
+        "request_id": "request-04c16bb9bcb04d15821215a2b91f647a",
+        "result_class": "followup_needed",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "doublechecker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 418.825838,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-18b4b06c0ad1417da9ecf7cb5c54656f.json",
+        "plane": "execution",
+        "request_id": "request-18b4b06c0ad1417da9ecf7cb5c54656f",
+        "result_class": "followup_needed",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "checker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 709.734787,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-88d48f39d8b4487980bd32f294fb666d.json",
+        "plane": "execution",
+        "request_id": "request-88d48f39d8b4487980bd32f294fb666d",
+        "result_class": "success",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 432.370776,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-9bb020a373fd46f089cea49804c5cc29.json",
+        "plane": "execution",
+        "request_id": "request-9bb020a373fd46f089cea49804c5cc29",
+        "result_class": "success",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "fixer",
+        "terminal_result": "FIXER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 180.780847,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-cfbca694478442e084f9362881123982.json",
+        "plane": "execution",
+        "request_id": "request-cfbca694478442e084f9362881123982",
+        "result_class": "followup_needed",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "doublechecker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 938.078839,
+        "path": "millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-d7f9670b9e3f478f95d7af46d0d8e18f.json",
+        "plane": "execution",
+        "request_id": "request-d7f9670b9e3f478f95d7af46d0d8e18f",
+        "result_class": "success",
+        "run_id": "run-33b29e26de2a49d0a642399d726ceec7",
+        "stage": "fixer",
+        "terminal_result": "FIXER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 924.107096,
+        "path": "millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-0670bbc1a764474d85946d051b4c4ac2.json",
+        "plane": "execution",
+        "request_id": "request-0670bbc1a764474d85946d051b4c4ac2",
+        "result_class": "success",
+        "run_id": "run-6240a5c5fd2a48cc84467fb611148238",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-07-docs-version-package-web-evidence"
+      },
+      {
+        "duration_seconds": 369.371402,
+        "path": "millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-48d54d929aa84be584d6b46d4b0983b4.json",
+        "plane": "execution",
+        "request_id": "request-48d54d929aa84be584d6b46d4b0983b4",
+        "result_class": "success",
+        "run_id": "run-6240a5c5fd2a48cc84467fb611148238",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-07-docs-version-package-web-evidence"
+      },
+      {
+        "duration_seconds": 86.484208,
+        "path": "millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-a4dd57b7553044c6a2e160241e88b5f0.json",
+        "plane": "execution",
+        "request_id": "request-a4dd57b7553044c6a2e160241e88b5f0",
+        "result_class": "success",
+        "run_id": "run-6240a5c5fd2a48cc84467fb611148238",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-07-docs-version-package-web-evidence"
+      },
+      {
+        "duration_seconds": 451.02162,
+        "path": "millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-00a3a64eaafc4eedbf1667b680b6e73f.json",
+        "plane": "execution",
+        "request_id": "request-00a3a64eaafc4eedbf1667b680b6e73f",
+        "result_class": "followup_needed",
+        "run_id": "run-709bc5fa01ff4b1f8299050b8ad54fe8",
+        "stage": "checker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-02-workflow-effect-contracts-assets"
+      },
+      {
+        "duration_seconds": 1017.931805,
+        "path": "millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-197f902a10ad4e67be489252db93cafb.json",
+        "plane": "execution",
+        "request_id": "request-197f902a10ad4e67be489252db93cafb",
+        "result_class": "success",
+        "run_id": "run-709bc5fa01ff4b1f8299050b8ad54fe8",
+        "stage": "fixer",
+        "terminal_result": "FIXER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-02-workflow-effect-contracts-assets"
+      },
+      {
+        "duration_seconds": 1717.781717,
+        "path": "millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-48bb796f288f4551a94e36efae09b611.json",
+        "plane": "execution",
+        "request_id": "request-48bb796f288f4551a94e36efae09b611",
+        "result_class": "success",
+        "run_id": "run-709bc5fa01ff4b1f8299050b8ad54fe8",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-02-workflow-effect-contracts-assets"
+      },
+      {
+        "duration_seconds": 149.791231,
+        "path": "millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-a4767c6ccc514ac4937cd4bd9a97e51a.json",
+        "plane": "execution",
+        "request_id": "request-a4767c6ccc514ac4937cd4bd9a97e51a",
+        "result_class": "success",
+        "run_id": "run-709bc5fa01ff4b1f8299050b8ad54fe8",
+        "stage": "doublechecker",
+        "terminal_result": "DOUBLECHECK_PASS",
+        "work_item_id": "auto-port-0-20-3-02-workflow-effect-contracts-assets"
+      },
+      {
+        "duration_seconds": 366.71895,
+        "path": "millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-e62bda34079e4f8da023a1575c23104c.json",
+        "plane": "execution",
+        "request_id": "request-e62bda34079e4f8da023a1575c23104c",
+        "result_class": "success",
+        "run_id": "run-709bc5fa01ff4b1f8299050b8ad54fe8",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-02-workflow-effect-contracts-assets"
+      },
+      {
+        "duration_seconds": 455.623378,
+        "path": "millrace-agents/runs/run-77d98d2aaa7443aa97432ec90fe589d4/stage_results/request-2894e0b45a614e1b8990e5b87f9619e0.json",
+        "plane": "planning",
+        "request_id": "request-2894e0b45a614e1b8990e5b87f9619e0",
+        "result_class": "success",
+        "run_id": "run-77d98d2aaa7443aa97432ec90fe589d4",
+        "stage": "arbiter",
+        "terminal_result": "ARBITER_COMPLETE",
+        "work_item_id": "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2"
+      },
+      {
+        "duration_seconds": 251.257482,
+        "path": "millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-144a4663e9604d278a94aa772ca3687b.json",
+        "plane": "execution",
+        "request_id": "request-144a4663e9604d278a94aa772ca3687b",
+        "result_class": "success",
+        "run_id": "run-89769f067892485fb74f38a8e47e80bd",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-04-repair-routing-recon-recovery"
+      },
+      {
+        "duration_seconds": 118.211906,
+        "path": "millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-3c0ebf8a1820426b820d9b019e361754.json",
+        "plane": "execution",
+        "request_id": "request-3c0ebf8a1820426b820d9b019e361754",
+        "result_class": "success",
+        "run_id": "run-89769f067892485fb74f38a8e47e80bd",
+        "stage": "doublechecker",
+        "terminal_result": "DOUBLECHECK_PASS",
+        "work_item_id": "auto-port-0-20-3-04-repair-routing-recon-recovery"
+      },
+      {
+        "duration_seconds": 2214.231239,
+        "path": "millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-56f907a090e84041ae5c8cc42fa0a250.json",
+        "plane": "execution",
+        "request_id": "request-56f907a090e84041ae5c8cc42fa0a250",
+        "result_class": "success",
+        "run_id": "run-89769f067892485fb74f38a8e47e80bd",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-04-repair-routing-recon-recovery"
+      },
+      {
+        "duration_seconds": 203.483176,
+        "path": "millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-5992a33ea5314607972a60c0ba1dc235.json",
+        "plane": "execution",
+        "request_id": "request-5992a33ea5314607972a60c0ba1dc235",
+        "result_class": "success",
+        "run_id": "run-89769f067892485fb74f38a8e47e80bd",
+        "stage": "fixer",
+        "terminal_result": "FIXER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-04-repair-routing-recon-recovery"
+      },
+      {
+        "duration_seconds": 399.978785,
+        "path": "millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-c0ebe22ead7b4911b54728dd758fc98b.json",
+        "plane": "execution",
+        "request_id": "request-c0ebe22ead7b4911b54728dd758fc98b",
+        "result_class": "followup_needed",
+        "run_id": "run-89769f067892485fb74f38a8e47e80bd",
+        "stage": "checker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-04-repair-routing-recon-recovery"
+      },
+      {
+        "duration_seconds": 212.3396,
+        "path": "millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-57956e91020b46cf8ed5e724074e0035.json",
+        "plane": "execution",
+        "request_id": "request-57956e91020b46cf8ed5e724074e0035",
+        "result_class": "success",
+        "run_id": "run-89d163b670df4f459f8769fb9fa9352f",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-01-parity-harness-scout"
+      },
+      {
+        "duration_seconds": 311.982946,
+        "path": "millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-7eecd024a62e48b4b30d140a63e8cd10.json",
+        "plane": "execution",
+        "request_id": "request-7eecd024a62e48b4b30d140a63e8cd10",
+        "result_class": "success",
+        "run_id": "run-89d163b670df4f459f8769fb9fa9352f",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-01-parity-harness-scout"
+      },
+      {
+        "duration_seconds": 1366.432801,
+        "path": "millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-8d76e0f9f5934a41a12c627e5ea49cd4.json",
+        "plane": "execution",
+        "request_id": "request-8d76e0f9f5934a41a12c627e5ea49cd4",
+        "result_class": "success",
+        "run_id": "run-89d163b670df4f459f8769fb9fa9352f",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-01-parity-harness-scout"
+      },
+      {
+        "duration_seconds": 181.389248,
+        "path": "millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-1974fda7d182436f91ca4a7c399d8161.json",
+        "plane": "execution",
+        "request_id": "request-1974fda7d182436f91ca4a7c399d8161",
+        "result_class": "success",
+        "run_id": "run-8cf50133e9cc44ca8084cbc7c9bb2ff2",
+        "stage": "doublechecker",
+        "terminal_result": "DOUBLECHECK_PASS",
+        "work_item_id": "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity"
+      },
+      {
+        "duration_seconds": 178.939411,
+        "path": "millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-54dad4d0f2fc4465b066d9bad1aeb0b7.json",
+        "plane": "execution",
+        "request_id": "request-54dad4d0f2fc4465b066d9bad1aeb0b7",
+        "result_class": "success",
+        "run_id": "run-8cf50133e9cc44ca8084cbc7c9bb2ff2",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity"
+      },
+      {
+        "duration_seconds": 709.071945,
+        "path": "millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-5a6619f24764445fae04aa4a54350a7c.json",
+        "plane": "execution",
+        "request_id": "request-5a6619f24764445fae04aa4a54350a7c",
+        "result_class": "success",
+        "run_id": "run-8cf50133e9cc44ca8084cbc7c9bb2ff2",
+        "stage": "fixer",
+        "terminal_result": "FIXER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity"
+      },
+      {
+        "duration_seconds": 201.329646,
+        "path": "millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-b9f18da440a448aa86b886cfec4bc78d.json",
+        "plane": "execution",
+        "request_id": "request-b9f18da440a448aa86b886cfec4bc78d",
+        "result_class": "success",
+        "run_id": "run-8cf50133e9cc44ca8084cbc7c9bb2ff2",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity"
+      },
+      {
+        "duration_seconds": 531.546925,
+        "path": "millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-cd1340ca491043b5836135573a61fa1d.json",
+        "plane": "execution",
+        "request_id": "request-cd1340ca491043b5836135573a61fa1d",
+        "result_class": "followup_needed",
+        "run_id": "run-8cf50133e9cc44ca8084cbc7c9bb2ff2",
+        "stage": "checker",
+        "terminal_result": "FIX_NEEDED",
+        "work_item_id": "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity"
+      },
+      {
+        "duration_seconds": 324.904331,
+        "path": "millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-527322f802904fa3a84ef7ec985ae4c1.json",
+        "plane": "planning",
+        "request_id": "request-527322f802904fa3a84ef7ec985ae4c1",
+        "result_class": "success",
+        "run_id": "run-9a02e1e948ac4bd885ecd598bb5ae651",
+        "stage": "auditor",
+        "terminal_result": "AUDITOR_COMPLETE",
+        "work_item_id": "incident-auto-port-0-20-3-05-runtime-effects-request-context-status-4683fd20"
+      },
+      {
+        "duration_seconds": 178.961093,
+        "path": "millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-894e06063c7e4375b617ab96b6c61ef2.json",
+        "plane": "planning",
+        "request_id": "request-894e06063c7e4375b617ab96b6c61ef2",
+        "result_class": "success",
+        "run_id": "run-9a02e1e948ac4bd885ecd598bb5ae651",
+        "stage": "manager",
+        "terminal_result": "MANAGER_COMPLETE",
+        "work_item_id": "incident-auto-port-0-20-3-05-runtime-effects-request-context-status-4683fd20"
+      },
+      {
+        "duration_seconds": 276.249414,
+        "path": "millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-ecec72b19cbc40228a1c68081cb0128c.json",
+        "plane": "planning",
+        "request_id": "request-ecec72b19cbc40228a1c68081cb0128c",
+        "result_class": "success",
+        "run_id": "run-9a02e1e948ac4bd885ecd598bb5ae651",
+        "stage": "planner",
+        "terminal_result": "PLANNER_COMPLETE",
+        "work_item_id": "incident-auto-port-0-20-3-05-runtime-effects-request-context-status-4683fd20"
+      },
+      {
+        "duration_seconds": 331.203228,
+        "path": "millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-0d93ac99087144599c15592deeff6945.json",
+        "plane": "execution",
+        "request_id": "request-0d93ac99087144599c15592deeff6945",
+        "result_class": "success",
+        "run_id": "run-9b0637aab3ce46b0b41934edd448dbe3",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 94.45228,
+        "path": "millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-88be8a9dd58d49fc84d634df8668eea8.json",
+        "plane": "execution",
+        "request_id": "request-88be8a9dd58d49fc84d634df8668eea8",
+        "result_class": "success",
+        "run_id": "run-9b0637aab3ce46b0b41934edd448dbe3",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 248.105206,
+        "path": "millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-ae54e629e1624fc1921e73c4ff827bee.json",
+        "plane": "execution",
+        "request_id": "request-ae54e629e1624fc1921e73c4ff827bee",
+        "result_class": "success",
+        "run_id": "run-9b0637aab3ce46b0b41934edd448dbe3",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 283.254023,
+        "path": "millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-174b771a5e2243a3b8cf9ab46b410d1a.json",
+        "plane": "execution",
+        "request_id": "request-174b771a5e2243a3b8cf9ab46b410d1a",
+        "result_class": "escalate_planning",
+        "run_id": "run-add69d1e68824903875f5a49b0f89a89",
+        "stage": "consultant",
+        "terminal_result": "NEEDS_PLANNING",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 399.878168,
+        "path": "millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-4f9c2c8202464e8bbc7d50e95247cb54.json",
+        "plane": "execution",
+        "request_id": "request-4f9c2c8202464e8bbc7d50e95247cb54",
+        "result_class": "blocked",
+        "run_id": "run-add69d1e68824903875f5a49b0f89a89",
+        "stage": "troubleshooter",
+        "terminal_result": "BLOCKED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 281.540905,
+        "path": "millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-6ba4c20046d74d2d92fa9f82517b972d.json",
+        "plane": "execution",
+        "request_id": "request-6ba4c20046d74d2d92fa9f82517b972d",
+        "result_class": "blocked",
+        "run_id": "run-add69d1e68824903875f5a49b0f89a89",
+        "stage": "troubleshooter",
+        "terminal_result": "BLOCKED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 275.71057,
+        "path": "millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-c3365bbac82d4317a0a6e4b01acf403d.json",
+        "plane": "execution",
+        "request_id": "request-c3365bbac82d4317a0a6e4b01acf403d",
+        "result_class": "blocked",
+        "run_id": "run-add69d1e68824903875f5a49b0f89a89",
+        "stage": "troubleshooter",
+        "terminal_result": "BLOCKED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 442.244727,
+        "path": "millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-d147f89813ed4aac81d264897d74efcc.json",
+        "plane": "execution",
+        "request_id": "request-d147f89813ed4aac81d264897d74efcc",
+        "result_class": "blocked",
+        "run_id": "run-add69d1e68824903875f5a49b0f89a89",
+        "stage": "troubleshooter",
+        "terminal_result": "BLOCKED",
+        "work_item_id": "auto-port-0-20-3-05-runtime-effects-request-context-status"
+      },
+      {
+        "duration_seconds": 484.302182,
+        "path": "millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/stage_results/request-cdea2acc4fa74345bc6a08b84d5095fa.json",
+        "plane": "planning",
+        "request_id": "request-cdea2acc4fa74345bc6a08b84d5095fa",
+        "result_class": "success",
+        "run_id": "run-bbd027a50d7f41dea60076da1c2f80c6",
+        "stage": "manager",
+        "terminal_result": "MANAGER_COMPLETE",
+        "work_item_id": "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2"
+      },
+      {
+        "duration_seconds": 308.946886,
+        "path": "millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/stage_results/request-fe65d7f0ccd846e2bd2072c391fdbf0e.json",
+        "plane": "planning",
+        "request_id": "request-fe65d7f0ccd846e2bd2072c391fdbf0e",
+        "result_class": "success",
+        "run_id": "run-bbd027a50d7f41dea60076da1c2f80c6",
+        "stage": "planner",
+        "terminal_result": "PLANNER_COMPLETE",
+        "work_item_id": "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2"
+      },
+      {
+        "duration_seconds": 1213.841434,
+        "path": "millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-4ee688c98e574be9a75364d713e0f54d.json",
+        "plane": "execution",
+        "request_id": "request-4ee688c98e574be9a75364d713e0f54d",
+        "result_class": "success",
+        "run_id": "run-bddf4d78bf214d50b0b42a0d27d3be6f",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-08-final-release-parity"
+      },
+      {
+        "duration_seconds": 416.707153,
+        "path": "millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-5f9b2155a3214a46b95c77a15ecc711c.json",
+        "plane": "execution",
+        "request_id": "request-5f9b2155a3214a46b95c77a15ecc711c",
+        "result_class": "success",
+        "run_id": "run-bddf4d78bf214d50b0b42a0d27d3be6f",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-08-final-release-parity"
+      },
+      {
+        "duration_seconds": 93.901997,
+        "path": "millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-c5bfe591693e41daa906cb96780cd8d1.json",
+        "plane": "execution",
+        "request_id": "request-c5bfe591693e41daa906cb96780cd8d1",
+        "result_class": "success",
+        "run_id": "run-bddf4d78bf214d50b0b42a0d27d3be6f",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-08-final-release-parity"
+      },
+      {
+        "duration_seconds": 204.272871,
+        "path": "millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-3d069af8a99d4581943d80fe1522a92a.json",
+        "plane": "execution",
+        "request_id": "request-3d069af8a99d4581943d80fe1522a92a",
+        "result_class": "success",
+        "run_id": "run-f26739ab046842bfbbb4cfae527b584b",
+        "stage": "checker",
+        "terminal_result": "CHECKER_PASS",
+        "work_item_id": "auto-port-0-20-3-05-custom-operation-dispatch-parity"
+      },
+      {
+        "duration_seconds": 562.204955,
+        "path": "millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-bafdeda158da4e46bae3c307da8ba9c2.json",
+        "plane": "execution",
+        "request_id": "request-bafdeda158da4e46bae3c307da8ba9c2",
+        "result_class": "success",
+        "run_id": "run-f26739ab046842bfbbb4cfae527b584b",
+        "stage": "builder",
+        "terminal_result": "BUILDER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-custom-operation-dispatch-parity"
+      },
+      {
+        "duration_seconds": 306.24039,
+        "path": "millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-ed32d9b406034a779ad7f1b26c7bd151.json",
+        "plane": "execution",
+        "request_id": "request-ed32d9b406034a779ad7f1b26c7bd151",
+        "result_class": "success",
+        "run_id": "run-f26739ab046842bfbbb4cfae527b584b",
+        "stage": "updater",
+        "terminal_result": "UPDATE_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-custom-operation-dispatch-parity"
+      },
+      {
+        "duration_seconds": 106.595505,
+        "path": "millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/stage_results/request-28bbf3a1d9e847beacaa2ae086b36b3a.json",
+        "plane": "planning",
+        "request_id": "request-28bbf3a1d9e847beacaa2ae086b36b3a",
+        "result_class": "success",
+        "run_id": "run-fab5d0cd5e6c40e78291f4838c8eddd4",
+        "stage": "planner",
+        "terminal_result": "PLANNER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-custom-operation-dispatch-parity"
+      },
+      {
+        "duration_seconds": 104.3271,
+        "path": "millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/stage_results/request-ca9688d681fb4a8188a1246eab027dbe.json",
+        "plane": "planning",
+        "request_id": "request-ca9688d681fb4a8188a1246eab027dbe",
+        "result_class": "success",
+        "run_id": "run-fab5d0cd5e6c40e78291f4838c8eddd4",
+        "stage": "manager",
+        "terminal_result": "MANAGER_COMPLETE",
+        "work_item_id": "auto-port-0-20-3-05-custom-operation-dispatch-parity"
+      }
+    ],
+    "summary": {
+      "cached_input_tokens": 0,
+      "first_started_at": "2026-05-29T16:38:48.370818+00:00",
+      "input_tokens": 0,
+      "last_completed_at": "2026-05-30T06:42:07.902044+00:00",
+      "output_tokens": 0,
+      "reasoning_output_tokens": 0,
+      "request_id_count": 52,
+      "run_count": 15,
+      "stage_result_count": 52,
+      "sum_stage_duration_hms": "7h 11m 19.2s",
+      "sum_stage_duration_seconds": 25879.220429,
+      "tokenized_stage_count": 0,
+      "wall_hms": "14h 3m 19.5s",
+      "wall_seconds": 50599.531226,
+      "work_item_count": 11
+    },
+    "terminal_counts": {
+      "arbiter/ARBITER_COMPLETE": 1,
+      "auditor/AUDITOR_COMPLETE": 1,
+      "builder/BUILDER_COMPLETE": 10,
+      "checker/CHECKER_PASS": 6,
+      "checker/FIX_NEEDED": 4,
+      "consultant/NEEDS_PLANNING": 1,
+      "doublechecker/DOUBLECHECK_PASS": 3,
+      "doublechecker/FIX_NEEDED": 2,
+      "fixer/FIXER_COMPLETE": 5,
+      "manager/MANAGER_COMPLETE": 3,
+      "planner/PLANNER_COMPLETE": 3,
+      "troubleshooter/BLOCKED": 4,
+      "updater/UPDATE_COMPLETE": 9
+    },
+    "version": "v0.5.2",
+    "work_item_stage_counts": {
+      "auto-port-0-20-3-01-parity-harness-scout": 3,
+      "auto-port-0-20-3-02-workflow-effect-contracts-assets": 5,
+      "auto-port-0-20-3-03-model-aliases-efficient-mode": 3,
+      "auto-port-0-20-3-04-repair-routing-recon-recovery": 5,
+      "auto-port-0-20-3-05-custom-operation-dispatch-parity": 5,
+      "auto-port-0-20-3-05-runtime-effects-request-context-status": 14,
+      "auto-port-0-20-3-06-refactor-compat-workspace-runner-parity": 5,
+      "auto-port-0-20-3-07-docs-version-package-web-evidence": 3,
+      "auto-port-0-20-3-08-final-release-parity": 3,
+      "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2": 3,
+      "incident-auto-port-0-20-3-05-runtime-effects-request-context-status-4683fd20": 3
+    }
+  },
+  "release": {
+    "idea_id": "idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2",
+    "python_commit": "c607c0c12ee91c5982f2808481ee5b818de12da9",
+    "python_from": "v0.20.1",
+    "python_to": "v0.20.3",
+    "rust_tag": "v0.5.2",
+    "rust_version": "0.5.2"
+  },
+  "schema_version": "1.0",
+  "source_files": [
+    {
+      "bytes": 18560,
+      "path": "v0.5.2-port-evidence/millrace-rs/CHANGELOG.md",
+      "sha256": "4ce9fbb1f07ff2c0b77fdee4d66a51bf6a60775f3cd0a1f2e44c85fa954b4adc"
+    },
+    {
+      "bytes": 3612,
+      "path": "v0.5.2-port-evidence/millrace-rs/ROADMAP.md",
+      "sha256": "0acadc54f90b30b2ca3ee2d919a849b797bf411b7c39c726edc050c81c6542e1"
+    },
+    {
+      "bytes": 10802,
+      "path": "v0.5.2-port-evidence/millrace-rs/docs/rust-port-roadmap.md",
+      "sha256": "c8ad264ab5c7e04d8ea5fa387cc40069c73bd080a325db27b2867a79d44d1292"
+    },
+    {
+      "bytes": 7454,
+      "path": "v0.5.2-port-evidence/millrace-rs/docs/source-package-map.md",
+      "sha256": "9f44a806fee86613ff7086771d316ec39010efbb807790ae29f31d60b0f14288"
+    },
+    {
+      "bytes": 11560,
+      "path": "v0.5.2-port-evidence/millrace-rs/docs/testing.md",
+      "sha256": "433b76a518e559bb94be0ae600971ca76d27cbe9a0a3bbaadd42ed3be696d1d0"
+    },
+    {
+      "bytes": 35704,
+      "path": "v0.5.2-port-evidence/millrace-rs/ideas/inbox/auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "ae62d09234b3dfb40663dbbbfb035b6a897151c806ba83680ee37983f1f1be8d"
+    },
+    {
+      "bytes": 35704,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/contracts/ideas/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "ae62d09234b3dfb40663dbbbfb035b6a897151c806ba83680ee37983f1f1be8d"
+    },
+    {
+      "bytes": 785,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/contracts/root-specs/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "517f099b0fdb044eca11ecb986791dad05ca4be5b21fd6b1b3002dc4858e07b0"
+    },
+    {
+      "bytes": 8381,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/reports/run-77d98d2aaa7443aa97432ec90fe589d4.md",
+      "sha256": "44663548e358b667d4957cdf2400e1f5bf123ce3bacc5952eef30b553955288f"
+    },
+    {
+      "bytes": 8495,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/rubrics/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "bf70636bb14eca239940cc5e3acf723fad264b779a6b4933242db5acb8b1773d"
+    },
+    {
+      "bytes": 1082,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/targets/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.json",
+      "sha256": "fd80854afea280d243a451fa434e405e9b34a810bed66b509e0a7ac3fec2a931"
+    },
+    {
+      "bytes": 9791,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/arbiter/verdicts/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.json",
+      "sha256": "caff64a1f2793f64f3a3261c7c2cb01689bd013734c61bf9b90d33c4ffe098dc"
+    },
+    {
+      "bytes": 2148,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/builder_summary.md",
+      "sha256": "8bb7a61145667f78e8b2dd95b8f37ff27d19ac20996014d60eb29873864714c7"
+    },
+    {
+      "bytes": 3285,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/checker_expectations.md",
+      "sha256": "2a96572f8b469e629629ce7b8664c99661b1459112f61fbcbfd9076547424ecf"
+    },
+    {
+      "bytes": 2743,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/checker_summary.md",
+      "sha256": "2f8fbb9b2bce6db89c8e0e63b6effd3d81bdcf73b95b419779d07db05a2312c4"
+    },
+    {
+      "bytes": 2526,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-02b13b11d16449a593a1b54ef7d26a43.json",
+      "sha256": "2b3a21b3f7b16380b11adf08c4aa5dcdbf686bc3c33ff68aee8647a47694fa13"
+    },
+    {
+      "bytes": 2490,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-91780118230946d9911ea83c346a5956.json",
+      "sha256": "4dfc4153c8dc09ded017fbd2b33df0f5bbf2bf3752f6042e9e5c416f5954580e"
+    },
+    {
+      "bytes": 2521,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/stage_results/request-e4020d6c3c4a492f93228f51c702731f.json",
+      "sha256": "254dbbfff9061885874b44adc07f07545b1c6cab44d9415c053123af98830bfb"
+    },
+    {
+      "bytes": 548,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-21715010a31f48038c7193908d20392f/updater_summary.md",
+      "sha256": "b115c2cd4df8b7bfd84967d0ade65aa0a99b851f79f77834af160e5fefc2628a"
+    },
+    {
+      "bytes": 1585,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/builder_summary.md",
+      "sha256": "62382e5e53764aa6053540f946d6c7f94a42b85c34e1d82206e0e5382fcd0d36"
+    },
+    {
+      "bytes": 3757,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/checker_expectations.md",
+      "sha256": "dd9628159e864bb3af2f0f24df98ef726b6cd0f9eee7a014321499daa11eaf09"
+    },
+    {
+      "bytes": 1882,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/checker_summary.md",
+      "sha256": "965a71a26b69eea2fab10c293ae98eb61e9632cf6098723d24598c73a6f153b2"
+    },
+    {
+      "bytes": 2421,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/doublecheck_summary.md",
+      "sha256": "3ee6e6f02efb0cea169cd6e948f0d6f20aba8db6a067a4d07563e75789298ac6"
+    },
+    {
+      "bytes": 2257,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/fixer_summary.md",
+      "sha256": "51746d11ce01ecd0eb6a0abf0c71089be6b5c8c724d6daa11cef884eb42c920c"
+    },
+    {
+      "bytes": 2562,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-04c16bb9bcb04d15821215a2b91f647a.json",
+      "sha256": "85f320103c7b75d2314258bca0a4ccd842a19b9c5a46ebfec0ef18b099c657d2"
+    },
+    {
+      "bytes": 2523,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-18b4b06c0ad1417da9ecf7cb5c54656f.json",
+      "sha256": "767458126a06334da3cc8acc86dd916a92c1aa5819fecfe9952f8aee21767f04"
+    },
+    {
+      "bytes": 2555,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-88d48f39d8b4487980bd32f294fb666d.json",
+      "sha256": "28e2d4c81ff75de1d257e7aa0894d2d296f92275fe3c000a73f1140092b5ab70"
+    },
+    {
+      "bytes": 2543,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-9bb020a373fd46f089cea49804c5cc29.json",
+      "sha256": "5bb0e40679cd0a4f177654aabd4cbd2104af38556652ca1f6ceb247f94e4dab7"
+    },
+    {
+      "bytes": 2562,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-cfbca694478442e084f9362881123982.json",
+      "sha256": "c05481b21c652997937dcf57a14ac89add9a3a2612e0d33b9a87853baa890e8d"
+    },
+    {
+      "bytes": 2543,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-33b29e26de2a49d0a642399d726ceec7/stage_results/request-d7f9670b9e3f478f95d7af46d0d8e18f.json",
+      "sha256": "cc440e29a90760fd243231991455490537c0cf90dd5a1528667c4a87c5210472"
+    },
+    {
+      "bytes": 1871,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/builder_summary.md",
+      "sha256": "ceb70bb24dd4785da29af7ab8da0dfd29dfec3320a1551e845672f40e7394829"
+    },
+    {
+      "bytes": 3461,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/checker_expectations.md",
+      "sha256": "04f27e237cd417a9a4fd27d22e37978ee2a5d35824f8d47731fa59c6dc648094"
+    },
+    {
+      "bytes": 3070,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/checker_summary.md",
+      "sha256": "0220252ec8f5009a0f739448d7c0a9cf4e954380d9e81bd0e09e73aacb7648db"
+    },
+    {
+      "bytes": 2540,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-0670bbc1a764474d85946d051b4c4ac2.json",
+      "sha256": "34ab3375ad40b2fe427670a4288af6659668372227aa071c880d1811ab8dde7a"
+    },
+    {
+      "bytes": 2505,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-48d54d929aa84be584d6b46d4b0983b4.json",
+      "sha256": "43b8014bdea65a2b1ca3fbd03ac342465fffd328bb6979982d40e6ea3079225b"
+    },
+    {
+      "bytes": 2535,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/stage_results/request-a4dd57b7553044c6a2e160241e88b5f0.json",
+      "sha256": "3dcb594c3b691d441cb4806bb7ffe5ffd05d0690ad07f9b99ae6c01f8d2745ed"
+    },
+    {
+      "bytes": 538,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-6240a5c5fd2a48cc84467fb611148238/updater_summary.md",
+      "sha256": "04cea6c540d13dc58dbd27fa7be1e20be99e684235e724c1fbaf2c93acde3fd3"
+    },
+    {
+      "bytes": 3686,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/builder_summary.md",
+      "sha256": "1f0ca575111d24870ad80ec5de6b0ffc6834ef93fc66b0aa363bab45b419ff25"
+    },
+    {
+      "bytes": 3246,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/checker_expectations.md",
+      "sha256": "d1db37a5dabf9121c0932181a349e1f37bd31f20b8995ef925fc51f0f1a84a39"
+    },
+    {
+      "bytes": 1677,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/checker_summary.md",
+      "sha256": "d462ff5833a05de3797a1a4612a302c146b88029ca3924f69ef0edddd66a7885"
+    },
+    {
+      "bytes": 2423,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/doublecheck_summary.md",
+      "sha256": "f0eb882299c8d801ceafff197ed6bf8f5bf5a8dce381558ce882f2c39846acc6"
+    },
+    {
+      "bytes": 3065,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/fixer_summary.md",
+      "sha256": "83f19bab2a1b29e810be0b553ce3ad756f94a2e393a262833f4c3468a5d6a376"
+    },
+    {
+      "bytes": 2504,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-00a3a64eaafc4eedbf1667b680b6e73f.json",
+      "sha256": "ace9cb3f18eb6057aaed016248b34d1346828a23f5e78d18bb2e226b27314385"
+    },
+    {
+      "bytes": 2526,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-197f902a10ad4e67be489252db93cafb.json",
+      "sha256": "6bf28ea86c13cc5e29a1103861e5f25b5ddc3768c3184d5e4e67a805fd634cea"
+    },
+    {
+      "bytes": 2538,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-48bb796f288f4551a94e36efae09b611.json",
+      "sha256": "6b3bba02707cf8daf729db16193e12599f51dcc9d4d687a32ffdb9638d0491b6"
+    },
+    {
+      "bytes": 2553,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-a4767c6ccc514ac4937cd4bd9a97e51a.json",
+      "sha256": "08bc228d661c7d488f7d2250563c928219c1e8e10ed97825a8293efb416ed749"
+    },
+    {
+      "bytes": 2532,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/stage_results/request-e62bda34079e4f8da023a1575c23104c.json",
+      "sha256": "ccc2ebb824de0d1d5a711b98f3c0778e65a35baf214d8951632b6e9f0b545696"
+    },
+    {
+      "bytes": 698,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-709bc5fa01ff4b1f8299050b8ad54fe8/updater_summary.md",
+      "sha256": "d51b786a822dd5d5f49c26491f40b98eaf71ace7b28c5afcaebc14098eb05ca5"
+    },
+    {
+      "bytes": 8381,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-77d98d2aaa7443aa97432ec90fe589d4/arbiter_report.md",
+      "sha256": "44663548e358b667d4957cdf2400e1f5bf123ce3bacc5952eef30b553955288f"
+    },
+    {
+      "bytes": 2916,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-77d98d2aaa7443aa97432ec90fe589d4/stage_results/request-2894e0b45a614e1b8990e5b87f9619e0.json",
+      "sha256": "35c08d3f53c83b307f4792bdfc119a8eb373e804ed8c569127cde5f7bc4989cd"
+    },
+    {
+      "bytes": 2556,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/builder_summary.md",
+      "sha256": "1fcef0ddef4f722679e3ba71f86af368048264a10acc010ce883c7a53a05ede0"
+    },
+    {
+      "bytes": 3736,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/checker_expectations.md",
+      "sha256": "7a69281445f43b5daea97cae6353ec89aacbf771522936735a1bc7cfdf5282ab"
+    },
+    {
+      "bytes": 2030,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/checker_summary.md",
+      "sha256": "a5ba4db3bed916f28b46430ae0749a8d4ebcb64b7064629902408f74eba60db8"
+    },
+    {
+      "bytes": 1493,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/doublecheck_summary.md",
+      "sha256": "52a2eb1e27eaa773ee881143a62be0a4c5de13f4e3478f9ad68c022cf11d431e"
+    },
+    {
+      "bytes": 1228,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/fixer_summary.md",
+      "sha256": "d3c206767ed60cc0d8fa0e6aa926a873eb2690526589a9a0b502a47241513955"
+    },
+    {
+      "bytes": 2524,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-144a4663e9604d278a94aa772ca3687b.json",
+      "sha256": "ec65d49a925e1213e54a19c7c744c4b425f7fda3081e356a870d9035d061e471"
+    },
+    {
+      "bytes": 2544,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-3c0ebf8a1820426b820d9b019e361754.json",
+      "sha256": "86adc06fc7a1adddd5edf251989e239dddf1269c1360c37e1c5c2a962ee371d3"
+    },
+    {
+      "bytes": 2529,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-56f907a090e84041ae5c8cc42fa0a250.json",
+      "sha256": "71ea117b01a681fd3a0a184515534b3e410185d62d9ea9cca5fc72e14740ca9c"
+    },
+    {
+      "bytes": 2516,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-5992a33ea5314607972a60c0ba1dc235.json",
+      "sha256": "63a079c9b380a43d52fadb2309a8ae70b59832a67d02301c81102bf98e4651af"
+    },
+    {
+      "bytes": 2496,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/stage_results/request-c0ebe22ead7b4911b54728dd758fc98b.json",
+      "sha256": "d9e2ec1a415cd9175d200b04e7694ef64425a03c804644dc287ad2c6129e4b24"
+    },
+    {
+      "bytes": 531,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89769f067892485fb74f38a8e47e80bd/updater_summary.md",
+      "sha256": "74e8647d0efbac59dae676dd4c0f6bd50e0738260820a2246c9afa69629a1b33"
+    },
+    {
+      "bytes": 1672,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/builder_summary.md",
+      "sha256": "894c4e6c288b8fc37e94afa46fe16a0b668bd7ecc62dc1fe2bdf04d7478d9ee0"
+    },
+    {
+      "bytes": 2966,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/checker_expectations.md",
+      "sha256": "c5e81a8f87e451d80320cda3807ec20231cb47a74b1fa7055893ab151e7d41b8"
+    },
+    {
+      "bytes": 2188,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/checker_summary.md",
+      "sha256": "95d8f1d86b9be25e5dd704974fbbfc500215715130af6f0a0ce9c508b34797cd"
+    },
+    {
+      "bytes": 2495,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-57956e91020b46cf8ed5e724074e0035.json",
+      "sha256": "5bc55a79b860bcc7d4af08137e4139794ac1b89d01d4e5784918578bfbe2bb3a"
+    },
+    {
+      "bytes": 2466,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-7eecd024a62e48b4b30d140a63e8cd10.json",
+      "sha256": "af75362eb22c9f5763a55ed4c086493bd3e204e180276e105a4235b4ee97e9e6"
+    },
+    {
+      "bytes": 2502,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/stage_results/request-8d76e0f9f5934a41a12c627e5ea49cd4.json",
+      "sha256": "618c4111bf4769d302a598100779eb0ecd4a4885497088b6f94818c282df2f7a"
+    },
+    {
+      "bytes": 855,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-89d163b670df4f459f8769fb9fa9352f/updater_summary.md",
+      "sha256": "a4ac1bb549293b5ea4ab5ce28ce75bc695878169535ec45e59b310b02396b46d"
+    },
+    {
+      "bytes": 2419,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/builder_summary.md",
+      "sha256": "ef65c25511d1abd1f07ed6ebee0f66d26f261b1611d610d723daae96c05a7056"
+    },
+    {
+      "bytes": 3299,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/checker_expectations.md",
+      "sha256": "88027f7833558da3f6acb21e8695a24ee06bb601314c620b7b044610f4b6b893"
+    },
+    {
+      "bytes": 2797,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/checker_summary.md",
+      "sha256": "383d912229a439932f7662bfd7942f0c5452a13b88a1c49a9dd6aa4f76023dcf"
+    },
+    {
+      "bytes": 1921,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/doublecheck_summary.md",
+      "sha256": "2ec9eeba0e29244003c9351fe0edb5b2a7e903dda376e93127d7fd0546a81f85"
+    },
+    {
+      "bytes": 1475,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/fixer_summary.md",
+      "sha256": "1db768306af31d80768101ca7e7e32ba0f37880c0e3dd3e7722fc2e0d2fd6a27"
+    },
+    {
+      "bytes": 2574,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-1974fda7d182436f91ca4a7c399d8161.json",
+      "sha256": "3cb1cdd0ee430067bfa24593a6f2292bc57bb5ab42aa1882afa061e1c97abf5d"
+    },
+    {
+      "bytes": 2554,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-54dad4d0f2fc4465b066d9bad1aeb0b7.json",
+      "sha256": "bc11188ddd78af36b5c4ae1498b973919a472d637668a14d2f826a242a158e90"
+    },
+    {
+      "bytes": 2546,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-5a6619f24764445fae04aa4a54350a7c.json",
+      "sha256": "9b3728425ebf9acb55df2a730a33d054d84ec9ea0ddf26092f9783521521a650"
+    },
+    {
+      "bytes": 2558,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-b9f18da440a448aa86b886cfec4bc78d.json",
+      "sha256": "eed7e00b43f44eb51b79f2ffca3580382afb38e594dac80e1c9ae8a06052fc99"
+    },
+    {
+      "bytes": 2526,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/stage_results/request-cd1340ca491043b5836135573a61fa1d.json",
+      "sha256": "277d5381669c7f709471a61218eb4bd14a03bffac163c3c5616baeceb9c10fd7"
+    },
+    {
+      "bytes": 1092,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-8cf50133e9cc44ca8084cbc7c9bb2ff2/updater_summary.md",
+      "sha256": "70e807b0c8f94d172b7bdfff05f00d34201a29c23f79a558201f6aba339926ee"
+    },
+    {
+      "bytes": 3289,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/auditor_summary.md",
+      "sha256": "3bdbdef468a36f6a5abf96280dbc4fa41b5695c33637e5a7ebb43e00c58eeda1"
+    },
+    {
+      "bytes": 2038,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/manager_summary.md",
+      "sha256": "6dee0929c6ad97bb1b91d883eeb4d18b198aa46cbf826a02c55408c7ac990e19"
+    },
+    {
+      "bytes": 2339,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/planner_summary.md",
+      "sha256": "47a1722e0f05ea1fb1a5acf6e91863691cd09c869de5b7f1615bb2d41d76cc00"
+    },
+    {
+      "bytes": 2597,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-527322f802904fa3a84ef7ec985ae4c1.json",
+      "sha256": "635065436bf1d832273b9b06044c0c35a47d937c5bb7a7630ccdba6f5d5e5048"
+    },
+    {
+      "bytes": 2597,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-894e06063c7e4375b617ab96b6c61ef2.json",
+      "sha256": "428e19090704bed8be90ba7110fb72987b4367f395e8969ac5b1f36d754bfda9"
+    },
+    {
+      "bytes": 2597,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9a02e1e948ac4bd885ecd598bb5ae651/stage_results/request-ecec72b19cbc40228a1c68081cb0128c.json",
+      "sha256": "410df954af57a1d638e74bff910884522c20be3c9adc0533a13303c1ed2a1fe8"
+    },
+    {
+      "bytes": 2388,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/builder_summary.md",
+      "sha256": "c42757fa2652a4841cf258bef56cb03cfd52f93ee83a8479074b1fdb8d3b0f8d"
+    },
+    {
+      "bytes": 3519,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/checker_expectations.md",
+      "sha256": "62a1bb8c0f1e32c9ab9dd216a299c1095119ca174df20797743f4d8b7415f94b"
+    },
+    {
+      "bytes": 3039,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/checker_summary.md",
+      "sha256": "253adb78f38081b1b7d11747e9f8e4577c175a49020310dcb3f2531d37fe80f6"
+    },
+    {
+      "bytes": 2555,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-0d93ac99087144599c15592deeff6945.json",
+      "sha256": "d09a42b9d9c0ecb05e53a0ef3359dcddbd80f7982bd7e6c16dc830acded7b713"
+    },
+    {
+      "bytes": 2549,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-88be8a9dd58d49fc84d634df8668eea8.json",
+      "sha256": "af94fce4744d7dfe9c64608a4138deff44ab12d7b6552a6275a95b189c49de0c"
+    },
+    {
+      "bytes": 2520,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/stage_results/request-ae54e629e1624fc1921e73c4ff827bee.json",
+      "sha256": "cb7db86ebfd3ffb293f08124be7a0c037f54b5f89c39ac28a7c66db502f5ff55"
+    },
+    {
+      "bytes": 884,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-9b0637aab3ce46b0b41934edd448dbe3/updater_summary.md",
+      "sha256": "1b36082abfb33e516f34f345d5031cc0103a5a4911506f1c0b1b66ca8086709f"
+    },
+    {
+      "bytes": 2740,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-174b771a5e2243a3b8cf9ab46b410d1a.json",
+      "sha256": "502b8b6dd40061afa2015eac6903782e7543f3174473ab76f39dff767c7778c1"
+    },
+    {
+      "bytes": 2721,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-4f9c2c8202464e8bbc7d50e95247cb54.json",
+      "sha256": "c96f15960aef2618ee533c18214b86991ce342cd4b8f793f7cc43675574eb99e"
+    },
+    {
+      "bytes": 2721,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-6ba4c20046d74d2d92fa9f82517b972d.json",
+      "sha256": "eeaa8fe6cdbbd0bd23cf5f4428c0f5d6b151bfb7c8f6e90898b83d19b217ea58"
+    },
+    {
+      "bytes": 2720,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-c3365bbac82d4317a0a6e4b01acf403d.json",
+      "sha256": "31f72f7d2fb311080e78ce7b2724ad9f1a482530ce8f18db43b7f0bf81bfaf50"
+    },
+    {
+      "bytes": 2721,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-add69d1e68824903875f5a49b0f89a89/stage_results/request-d147f89813ed4aac81d264897d74efcc.json",
+      "sha256": "d65519c439e95f57509db0fa519403f1664dc93548248a0b88455ec3b52ec1f9"
+    },
+    {
+      "bytes": 3898,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/manager_summary.md",
+      "sha256": "dad418c392b6876651b80fa624a217600a4b0ce89c1751888e09d67857e305d9"
+    },
+    {
+      "bytes": 1771,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/planner_summary.md",
+      "sha256": "0cb44708404d5a20180e799eede1000aefccce30d85a4a24631a32b264d2fc14"
+    },
+    {
+      "bytes": 2510,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/stage_results/request-cdea2acc4fa74345bc6a08b84d5095fa.json",
+      "sha256": "35f24f54ae0d5eba8175cf53d69b72ae710328b4e99ba6af21e66e0cb8663edb"
+    },
+    {
+      "bytes": 2510,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bbd027a50d7f41dea60076da1c2f80c6/stage_results/request-fe65d7f0ccd846e2bd2072c391fdbf0e.json",
+      "sha256": "4b1eaf3633ff577ece2264b75307ac20c8370e90292ebf1017e886d30bf58e17"
+    },
+    {
+      "bytes": 3529,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/builder_summary.md",
+      "sha256": "958916e37d1fdd6e4e540e93c5ee9c94ecb3a48a0fbf35ef15019776123d1be8"
+    },
+    {
+      "bytes": 2960,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/checker_expectations.md",
+      "sha256": "85554d4cc8145cd0671a6c42c5ef5adaf8d8275ed1e6dcf0638872cacd06dd64"
+    },
+    {
+      "bytes": 4003,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/checker_summary.md",
+      "sha256": "30e26cf0106a2b4e93ead88644276b054ebd573a3f74dab6e646fefa936cec5e"
+    },
+    {
+      "bytes": 2502,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-4ee688c98e574be9a75364d713e0f54d.json",
+      "sha256": "af49492e1c7f0989a3471054d2eed4be192cdc3aacd6eacf8c09f0d09db475ed"
+    },
+    {
+      "bytes": 2466,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-5f9b2155a3214a46b95c77a15ecc711c.json",
+      "sha256": "41f84c2accc451c5e0f24a69c6b8e9dc70e00cd1d51bf6b16c77f822f3cea883"
+    },
+    {
+      "bytes": 2496,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/stage_results/request-c5bfe591693e41daa906cb96780cd8d1.json",
+      "sha256": "f3194c9c9f14545b7c03fffae81e4013dddaefb0384eed73d0e24cbe4c4a9b8f"
+    },
+    {
+      "bytes": 407,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-bddf4d78bf214d50b0b42a0d27d3be6f/updater_summary.md",
+      "sha256": "f4f7738aa5c166d5d6f728609c7e19fbe84b0eeb9069b26704c305c2afee0730"
+    },
+    {
+      "bytes": 2089,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/builder_summary.md",
+      "sha256": "b5944dd55176af7675fd1542e2e558a8367ee9eeb8c4c32eb902e60911ba08fb"
+    },
+    {
+      "bytes": 3229,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/checker_expectations.md",
+      "sha256": "00e1bfd8be63b1a3ffebcd57f9b9c22308bd390979748e759b8d8672af7bc4f4"
+    },
+    {
+      "bytes": 2798,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/checker_summary.md",
+      "sha256": "f7bb73b170739bbf852395adc6072f337c2180256aebdd8bdc4e6dc9af6ff5e2"
+    },
+    {
+      "bytes": 2502,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-3d069af8a99d4581943d80fe1522a92a.json",
+      "sha256": "5d6ac0899a5993a17f9161b348893f133a5086f99e6d6974edb3a0674169dae3"
+    },
+    {
+      "bytes": 2537,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-bafdeda158da4e46bae3c307da8ba9c2.json",
+      "sha256": "f0e0a9947cde82fccec18aaa830c948f8a4413be7b708d11793d086d11570cea"
+    },
+    {
+      "bytes": 2532,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/stage_results/request-ed32d9b406034a779ad7f1b26c7bd151.json",
+      "sha256": "38b62b11f99f83bd10196142127c2c8dfe5dad1388b78cd253ce243f3dab28b7"
+    },
+    {
+      "bytes": 550,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-f26739ab046842bfbbb4cfae527b584b/updater_summary.md",
+      "sha256": "81908c0ef14c640829a4a68d0b5c6bd46f3295d89908677cd73c72451cc10e7b"
+    },
+    {
+      "bytes": 1830,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/manager_summary.md",
+      "sha256": "edcc9305a1be355afe4098fe8e1d77df25154e11b33775e6b37cfecd22349f31"
+    },
+    {
+      "bytes": 2393,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/planner_summary.md",
+      "sha256": "8f05f1e889844361357648fe610dd7364b82d1d60a612900115bc1a56866236e"
+    },
+    {
+      "bytes": 2513,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/stage_results/request-28bbf3a1d9e847beacaa2ae086b36b3a.json",
+      "sha256": "b6544a119cc525e7a69b20955fdbc37af6f2e01c6533077954e0bacebb672a72"
+    },
+    {
+      "bytes": 2511,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/runs/run-fab5d0cd5e6c40e78291f4838c8eddd4/stage_results/request-ca9688d681fb4a8188a1246eab027dbe.json",
+      "sha256": "f1124c09359007f1989bd2a36725fdb241f0cf4dd7f42351df54ee69af320648"
+    },
+    {
+      "bytes": 21254,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/specs/done/idea-auto-port-python-v0.20.1-to-v0.20.3-rust-0.5.2.md",
+      "sha256": "faac77b97f637fea5fda012c5146fbe622f0800ac6dc6d9e6f74e4d80a9deb20"
+    },
+    {
+      "bytes": 4024,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-01-parity-harness-scout.md",
+      "sha256": "ebe09cd39f73c01c52b1ba47827e2cf9e045e664bb7b61a69ecb029acb143ef7"
+    },
+    {
+      "bytes": 4900,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-02-workflow-effect-contracts-assets.md",
+      "sha256": "2fbcaca1140183ee9cfad0ab43b50de3198b9de9c92ccec5ec9f4a8b5eb031b8"
+    },
+    {
+      "bytes": 3849,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-03-model-aliases-efficient-mode.md",
+      "sha256": "4c3e94391f28fa3a41e0627594bf3d3981893457376a2b01a0d50cda98bea181"
+    },
+    {
+      "bytes": 4322,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-04-repair-routing-recon-recovery.md",
+      "sha256": "9024e78e217b3f3001f70bf0b625d55bccdb0e4844aaf6562b632040a54ed703"
+    },
+    {
+      "bytes": 4128,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-05-custom-operation-dispatch-parity.md",
+      "sha256": "1a225215d3112e2e8b08062e5c0978250bcad5c68f379bc59479af7b3ae23bae"
+    },
+    {
+      "bytes": 4479,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-05-runtime-effects-request-context-status.md",
+      "sha256": "24f3fa2d4e6d5f2be55856f12dde8ea2d4b9a9a689d2e38faee9b4b73c2b4ba3"
+    },
+    {
+      "bytes": 4689,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-06-refactor-compat-workspace-runner-parity.md",
+      "sha256": "8645eddb3b1664b5a927ddb5abed1e1a8980cabe75e7e9d041bd88fba77448c5"
+    },
+    {
+      "bytes": 4002,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-07-docs-version-package-web-evidence.md",
+      "sha256": "3f3cc9c5fc788255ed6af31506b3d066127c1005b2b61fa4686cf37445ff4901"
+    },
+    {
+      "bytes": 3934,
+      "path": "v0.5.2-port-evidence/millrace-rs/millrace-agents/tasks/done/auto-port-0-20-3-08-final-release-parity.md",
+      "sha256": "069826bbf50fc93367d2c8a7add364f66d4f24092157ccaa45f488492113b2ed"
+    },
+    {
+      "bytes": 18560,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/CHANGELOG.md",
+      "sha256": "4ce9fbb1f07ff2c0b77fdee4d66a51bf6a60775f3cd0a1f2e44c85fa954b4adc"
+    },
+    {
+      "bytes": 19378,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/Cargo.lock",
+      "sha256": "3892365dc11a0905fbc6e0c3d3e836bcaa0926144bff475125572f4b44a74c1c"
+    },
+    {
+      "bytes": 1102,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/Cargo.toml",
+      "sha256": "1e440f183b1a82cc7904a9c992c85b9a64c2511cd4cb6aa9a02a3f3e22b8f790"
+    },
+    {
+      "bytes": 3612,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/ROADMAP.md",
+      "sha256": "0acadc54f90b30b2ca3ee2d919a849b797bf411b7c39c726edc050c81c6542e1"
+    },
+    {
+      "bytes": 10802,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/docs/rust-port-roadmap.md",
+      "sha256": "c8ad264ab5c7e04d8ea5fa387cc40069c73bd080a325db27b2867a79d44d1292"
+    },
+    {
+      "bytes": 7454,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/docs/source-package-map.md",
+      "sha256": "9f44a806fee86613ff7086771d316ec39010efbb807790ae29f31d60b0f14288"
+    },
+    {
+      "bytes": 11560,
+      "path": "v0.5.2-port-evidence/release-tag/v0.5.2/docs/testing.md",
+      "sha256": "433b76a518e559bb94be0ae600971ca76d27cbe9a0a3bbaadd42ed3be696d1d0"
+    }
+  ]
+}
